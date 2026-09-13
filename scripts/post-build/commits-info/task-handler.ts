@@ -69,7 +69,7 @@ async function readGitCommitsLog(path: string): Promise<CommitLog[]> {
 function findIncludedCodeFiles(markdown: string): string[] {
   return [
     ...new Set(
-      [...markdown.matchAll(/--8<--\s*"(docs\/[^"\n:]+)"/g)]
+      [...markdown.matchAll(/--8<--\s*"(docs\/[^"\n]+)(?::[^"\n]*)?"/g)]
         .map(([, path]) => path.replaceAll("\\", "/"))
         .filter(path => path.includes("/code/"))
     )
