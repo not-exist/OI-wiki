@@ -26,7 +26,15 @@ function parseCommitsLog(log: string): CommitLog[] {
   });
 }
 
-async function readGitCommitsLog(path: string): Promise<CommitLog[]> {
+async function readGitCommitsLog(path: string, lineRanges?: [number, number][]): Promise<CommitLog[]> {
+  // When line ranges are given, `git log -L <start>,<end>:<file>` only counts the commits
+  // touching those lines, i.e. only the contributors of the referenced fragment.
+  // Note that `-L` takes the file argument itself, so no `-- <path>` may be passed,
+  // and it cannot be combined with `--follow` (file renames are not followed in this mode).
+  const pathSpecifier =
+    lineRanges && lineRanges.length
+      ? lineRanges.map(([start, end]) => `-L "${start},${end}:$FILENAME"`).join(" ")
+      : `--follow -- "$FILENAME"`;
   const { stdout: log } = await execFileAsync(
     "bash",
     [
@@ -53,7 +61,7 @@ async function readGitCommitsLog(path: string): Promise<CommitLog[]> {
        *   - `i`: Makes the regex case-insensitive.
        */
       "-c",
-      `git log --follow '--pretty=format:>%cD%n<%aE%n%w(0,2,2)%b' -- "$FILENAME" | sed -nE 's/^((>.+)|(<.+)|  Co-Authored-By: .+?(<.+)>)/\\2\\3\\4/pi'`
+      `git log '--pretty=format:>%cD%n<%aE%n%w(0,2,2)%b' ${pathSpecifier} | sed -nE 's/^((>.+)|(<.+)|  Co-Authored-By: .+?(<.+)>)/\\2\\3\\4/pi'`
     ],
     {
       env: {
@@ -66,14 +74,103 @@ async function readGitCommitsLog(path: string): Promise<CommitLog[]> {
   return parseCommitsLog(log);
 }
 
-function findIncludedCodeFiles(markdown: string): string[] {
-  return [
-    ...new Set(
-      [...markdown.matchAll(/--8<--\s*"(docs\/[^"\n]+)(?::[^"\n]*)?"/g)]
-        .map(([, path]) => path.replaceAll("\\", "/"))
-        .filter(path => path.includes("/code/"))
-    )
-  ];
+type IncludedCodeFile = {
+  /** Path of the code file relative to the repository root */
+  path: string;
+  /** Snippet section name (`--8<-- "path:section"`); absent when the whole file is included */
+  section?: string;
+};
+
+/**
+ * Find code files included in the article with the snippet syntax, with either whole-file
+ * references (`--8<-- "docs/.../file.cpp"`) or snippet section references (`--8<-- "docs/.../file.cpp:section"`).
+ */
+function findIncludedCodeFiles(markdown: string): IncludedCodeFile[] {
+  const seen = new Set<string>();
+  const result: IncludedCodeFile[] = [];
+  for (const [, rawPath, rawSection] of markdown.matchAll(/--8<--\s*"(docs\/[^"\n:]+?)(?::([^"\n]+?))?"/g)) {
+    const path = rawPath.replaceAll("\\", "/");
+    const section = rawSection?.trim();
+    if (!path.includes("/code/")) continue;
+    const key = section ? `${path}\n${section}` : path;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    result.push({ path, section });
+  }
+  return result;
+}
+
+function escapeRegExp(text: string): string {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+/**
+ * Resolve a snippet section reference to the 1-based inclusive line range of its content.
+ *
+ * Following the semantics of pymdownx "Snippet Sections" (and remark-snippet of OI-Wiki-export),
+ * the code file is expected to hold marker comments like `--8<-- [start:section]` and
+ * `--8<-- [end:section]`, and only the lines strictly between the two markers are included:
+ * - when the end marker is missing, the content extends to the end of the file;
+ * - when an end marker appears before any start marker, the section is legitimately empty
+ *   (returned as a range with `end < start`).
+ *
+ * Returns `null` when the section does not exist in the file.
+ */
+function findSnippetSectionLineRange(code: string, section: string): [number, number] | null {
+  const markerRegex = new RegExp(`--8<--\\s*\\[\\s*(start|end):\\s*${escapeRegExp(section)}\\s*\\]`);
+  const lines = code.split("\n");
+  let startIndex = -1; // Index of the start marker line
+  for (const [index, line] of lines.entries()) {
+    const match = line.match(markerRegex);
+    if (!match) continue;
+    if (match[1] === "start") {
+      if (startIndex === -1) startIndex = index;
+      continue;
+    }
+    if (startIndex === -1) return [1, 0]; // End marker before any start marker: nothing is included
+    return [startIndex + 2, index]; // Content is after the start marker and before the end marker (1-based)
+  }
+  if (startIndex === -1) return null; // Section not found
+  // End marker missing: content extends to the end of the file
+  // (a trailing newline does not count as a line of its own)
+  const lineCount = lines[lines.length - 1] === "" ? lines.length - 1 : lines.length;
+  return [startIndex + 2, lineCount];
+}
+
+/** Drop empty ranges, then sort and merge overlapping or adjacent ones. */
+function mergeLineRanges(ranges: [number, number][]): [number, number][] {
+  const sorted = ranges.filter(([start, end]) => start <= end).sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  const merged: [number, number][] = [];
+  for (const [start, end] of sorted) {
+    const last = merged[merged.length - 1];
+    if (last && start <= last[1] + 1) last[1] = Math.max(last[1], end);
+    else merged.push([start, end]);
+  }
+  return merged;
+}
+
+/**
+ * Read the commit logs of only the referenced snippet sections of a code file,
+ * i.e. only count the contributors of the fragments actually included in the article.
+ */
+async function readGitCommitsLogOfSnippetSections(path: string, sections: string[]): Promise<CommitLog[]> {
+  let lineRanges: [number, number][];
+  try {
+    const code = await fs.promises.readFile(path, "utf8");
+    lineRanges = mergeLineRanges(
+      sections.map(section => {
+        const range = findSnippetSectionLineRange(code, section);
+        if (range === null) throw new Error(`snippet section "${section}" not found`);
+        return range;
+      })
+    );
+  } catch (error) {
+    // Unreachable in a successful site build as pymdownx.snippets runs with `check_paths: true`;
+    // fall back to the whole file instead of silently losing all of its contributors.
+    log(`Failed to resolve snippet sections of ${chalk.yellow(path)} (${error}), falling back to the whole file`);
+    return readGitCommitsLog(path);
+  }
+  return lineRanges.length ? readGitCommitsLog(path, lineRanges) : [];
 }
 
 const GITHUB_REPO = "OI-wiki/OI-wiki";
@@ -113,14 +210,26 @@ export const taskHandler = new (class implements TaskHandler<AuthorUserMap> {
       $(".edit_history").setAttribute("href", `https://github.com/${GITHUB_REPO}/commits/master/docs${sourceFilePath}`);
 
       const commitsLog = await readGitCommitsLog(`docs${sourceFilePath}`);
-      let codeFiles: string[] = [];
+      let includedCodeFiles: IncludedCodeFile[] = [];
       try {
         const markdown = await fs.promises.readFile(`docs${sourceFilePath}`, "utf8");
-        codeFiles = findIncludedCodeFiles(markdown);
+        includedCodeFiles = findIncludedCodeFiles(markdown);
       } catch (error) {
         log(`Failed to read source markdown for ${sourceFilePath}: ${error}`);
       }
-      const codeFileLogs = await Promise.all(codeFiles.map(readGitCommitsLog));
+
+      // A file referenced as a whole takes precedence over references to its sections
+      const wholeFilePaths = new Set(includedCodeFiles.filter(({ section }) => !section).map(({ path }) => path));
+      const sectionsByPath = new Map<string, string[]>();
+      for (const { path, section } of includedCodeFiles) {
+        if (!section || wholeFilePaths.has(path)) continue;
+        if (!sectionsByPath.has(path)) sectionsByPath.set(path, []);
+        sectionsByPath.get(path)!.push(section);
+      }
+      const codeFileLogs = await Promise.all([
+        ...[...wholeFilePaths].map(path => readGitCommitsLog(path)),
+        ...[...sectionsByPath].map(([path, sections]) => readGitCommitsLogOfSnippetSections(path, sections))
+      ]);
 
       // "本页面最近更新"
       const latestDate = new Date(
