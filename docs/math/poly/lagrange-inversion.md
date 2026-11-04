@@ -158,7 +158,7 @@ $$
 
 可以通过我们已经证明的部分导出．
 
-## 参考文献
+## 拓展阅读
 
 1.  Richard P. Stanley and Sergey P. Fomin. Enumerative Combinatorics Volume 2 (Edition 1).
 2.  Ira M. Gessel. Lagrange Inversion.

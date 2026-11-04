@@ -650,7 +650,7 @@ Cauchy 定理保证了 $p$‑子群的存在性．其实，通过更为细致的
     |    $C_{2}\times C_{12}$   |     $C_2\times C_{3}\times C_4$     |
     | $C_2\times C_2\times C_6$ | $C_2\times C_2\times C_2\times C_3$ |
 
-## 参考资料与注释
+## 拓展阅读
 
 -   Dummit, D.S. and Foote, R.M. (2004) Abstract Algebra. 3rd Edition, John Wiley & Sons, Inc.
 -   [Milne, J.S. (2021) Group Theory](https://www.jmilne.org/math/CourseNotes/GT.pdf).
@@ -658,6 +658,8 @@ Cauchy 定理保证了 $p$‑子群的存在性．其实，通过更为细致的
 -   [Group theory - Wikipedia](https://en.wikipedia.org/wiki/Group_theory)
 -   [Group - Wolfram MathWorld](https://mathworld.wolfram.com/Group.html)
 -   [Visual Group Theory](https://www.youtube.com/playlist?list=PLwV-9DG53NDxU337smpTwm6sef4x-SCLv)
+
+## 参考资料与注释
 
 [^klein]: 这个群可以表示为置换群 $\{(1),(12)(34),(13)(24),(14)(23)\}$，也可以写作 $C_2\times C_2$．
 

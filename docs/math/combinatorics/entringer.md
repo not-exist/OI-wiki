@@ -233,6 +233,6 @@ $$
 
 构成 zigzag 数的生成函数．
 
-## 参考资料与链接
+## 拓展阅读
 
 1.  [Alternating permutation - Wikipedia](https://en.wikipedia.org/wiki/Alternating_permutation)

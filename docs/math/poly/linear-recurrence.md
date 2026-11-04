@@ -250,6 +250,6 @@ $$
 
 最后我们使用形式幂级数的除法计算出 $\left\lbrack x^{\left\lbrack 0,R-L\right)}\right\rbrack\dfrac{\widetilde{P}(x)}{Q(x)}$，时间为 $O(\mathsf{M}(d)\log L+\mathsf{M}(R-L))$．
 
-## 参考文献
+## 拓展阅读
 
 1.  Alin Bostan, Ryuhei Mori.[A Simple and Fast Algorithm for Computing the $N$-th Term of a Linearly Recurrent Sequence](https://arxiv.org/abs/2008.08822).

@@ -139,6 +139,6 @@ $$
 
 预处理出 $\mathrm{e}^x - 1$ 的前 $n$ 项后做一次 [多项式 exp](../poly/elementary-func.md#多项式对数函数--指数函数) 即可得出贝尔数前 $n$ 项，时间复杂度瓶颈在多项式 exp，可做到 $O(n \log n)$ 的时间复杂度．
 
-## 参考文献
+## 拓展阅读
 
 <https://en.wikipedia.org/wiki/Bell_number>

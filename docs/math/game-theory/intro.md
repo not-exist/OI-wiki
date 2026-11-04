@@ -67,7 +67,7 @@ author: cutekibry, woruo27, Backl1ght, c-forrest
 
 公平和非公平组合博弈都可以是正常或反常博弈．
 
-## 参考资料
+## 拓展阅读
 
 -   [Game theory - Wikipedia](https://en.wikipedia.org/wiki/Game_theory)
 -   [Combinatorial game theory - Wikipedia](https://en.wikipedia.org/wiki/Combinatorial_game_theory)

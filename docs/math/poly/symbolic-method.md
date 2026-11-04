@@ -448,6 +448,6 @@ $$
     
     可得到相同的结果．
 
-## 参考文献
+## 拓展阅读
 
 -   Philippe Flajolet and Robert Sedgewick.[Analytic Combinatorics](http://algo.inria.fr/flajolet/Publications/books.html).

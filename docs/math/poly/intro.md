@@ -399,7 +399,7 @@ $$
 2.  指数生成函数：$k_n(x)=\dfrac{x^n}{n!}$．
 3.  [狄利克雷生成函数](../number-theory/dirichlet.md#dirichlet-生成函数)：$k_n(x)=\dfrac{1}{n^x}$．
 
-## 参考资料与拓展阅读
+## 拓展阅读
 
 -   [**Picks's Blog**](https://picks.logdown.com)
 -   [**Miskcoo's Space**](https://blog.miskcoo.com)

@@ -127,6 +127,6 @@ $$
     --8<-- "docs/math/code/poly/czt/inv_czt_1.cpp:core"
     ```
 
-## 参考文献
+## 拓展阅读
 
 1.  [Bostan, A. (2010). Fast algorithms for polynomials and matrices. JNCF 2010. Algorithms Project, INRIA.](https://specfun.inria.fr/bostan/publications/exposeJNCF.pdf)

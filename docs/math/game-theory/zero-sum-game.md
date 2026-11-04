@@ -248,7 +248,7 @@ $$
 
 -   [Luogu P4232 无意识之外的捉迷藏](https://www.luogu.com.cn/problem/P4232)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Zero-sum game - Wikipedia](https://en.wikipedia.org/wiki/Zero-sum_game)
 -   [Minimax theorem - Wikipedia](https://en.wikipedia.org/wiki/Minimax_theorem)

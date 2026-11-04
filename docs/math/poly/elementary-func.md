@@ -590,6 +590,6 @@ $$
     }
     ```
 
-## 参考资料与链接
+## 参考资料与注释
 
 [^ref1]: [Elementary function——Wikipedia](https://en.wikipedia.org/wiki/Elementary_function)

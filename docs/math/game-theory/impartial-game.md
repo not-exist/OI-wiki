@@ -685,7 +685,7 @@ $$
 -   [Luogu P1971 \[NOI2011\] 兔兔与蛋蛋游戏](https://www.luogu.com.cn/problem/P1971)
 -   [Codeforces 1147 F. Zigzag Game](https://codeforces.com/problemset/problem/1147/F)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [（转载）Nim 游戏博弈（收集完全版）by exponent - 博客园](http://www.cnblogs.com/exponent/articles/2141477.html)
 -   [\[组合游戏与博弈论\]【学习笔记】by Candy? - 博客园](https://www.cnblogs.com/candy99/p/6548836.html)
@@ -697,6 +697,8 @@ $$
 -   [算法学习笔记（74): 二分图博弈 by Pecco - 知乎](https://zhuanlan.zhihu.com/p/359334008)
 -   Conway, John H. On numbers and games. AK Peters/CRC Press, 2000.
 -   Berlekamp, Elwyn R., John H. Conway, and Richard K. Guy. Winning ways for your mathematical plays, volume 1-4. AK Peters/CRC Press, 2001-2004.
+
+## 参考资料与注释
 
 [^n-vs-p]: 「$\mathcal N$ 态」和「$\mathcal P$ 态」这两个名称分别表示「下一名玩家胜利」（Next player wins）和「前一名玩家胜利」（Previous player wins）．
 

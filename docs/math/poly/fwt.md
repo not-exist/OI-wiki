@@ -524,9 +524,11 @@ $$
     ??? note "题解"
         这是一道比较不裸的题，出题人提供了详细的英文题解，具体请见 [此链接](https://codeforces.com/blog/entry/96518)．
 
-## 参考资料
+## 拓展阅读
 
 -   [桃酱的算法笔记](https://zhuanlan.zhihu.com/p/41867199)
 -   [ZnPdCo 的博客](https://znpdco.github.io/%E7%AE%97%E6%B3%95/2024/05/07/FWT.html)
+
+## 参考资料与注释
 
 [^note1]: [维基百科](https://zh.wikipedia.org/zh-cn/%E6%B2%83%E7%88%BE%E4%BB%80%E8%BD%89%E6%8F%9B)

@@ -395,11 +395,13 @@ $$
 -   [Codeforces 1100F Ivan and Burgers](https://codeforces.com/problemset/problem/1100/F)
 -   [Luogu P3292 \[SCOI2016\] 幸运数字](https://www.luogu.com.cn/problem/P3292)
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  丘维声，高等代数（下）．清华大学出版社．
 2.  [Basis (linear algebra) - Wikipedia](https://en.wikipedia.org/wiki/Basis_%28linear_algebra%29)
 3.  [Vector Basis -- from Wolfram MathWorld](https://mathworld.wolfram.com/VectorBasis.html)
 4.  [Zassenhaus algorithm - Wikipedia](https://en.wikipedia.org/wiki/Zassenhaus_algorithm)
+
+## 参考资料与注释
 
 [^existence_basis]: [Proof that every vector space has a basis](https://en.wikipedia.org/wiki/Basis_%28linear_algebra%29#Proof_that_every_vector_space_has_a_basis)

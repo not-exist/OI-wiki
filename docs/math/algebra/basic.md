@@ -255,10 +255,12 @@ author: jifbt, billchenchina, Enter-tainer, Great-designer, iamtwz, ImpleLee, is
     
     这里提到的热带半环以及上面的矩阵运算其实并不罕见．如果将上文中的 $\max$ 换作 $\min$，则相应的热带半环常用于最短路问题中．如果 $n$ 维方阵 $A$ 给出了顶点数目为 $n$ 的某个图的两点间的（最短）边权，那么，$A^k$ 的 $(i,j)$ 处的元素就是自点 $i$ 经至多 $k$ 条边到点 $j$ 的最短距离；特别地，$A^n$ 就是该图的距离矩阵．当然实际实现的时候并不会真的暴力计算这一矩阵的幂，而是使用复杂度为 $O(n^3)$ 的 Floyd 算法．
 
-## 参考资料与注释
+## 拓展阅读
 
 -   Dummit, D.S. and Foote, R.M. (2004) Abstract Algebra. 3rd Edition, John Wiley & Sons, Inc.
 -   [Tropical semiring - Wikipedia](https://en.wikipedia.org/wiki/Tropical_semiring)
+
+## 参考资料与注释
 
 [^oi-wiki-not-wikipedia]: 因为 [OI Wiki 不是百科全书](../../intro/what-oi-wiki-is-not.md#oi-wiki-不是百科全书)．
 

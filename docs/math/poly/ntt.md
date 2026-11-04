@@ -81,7 +81,7 @@ DFT、FFT、NTT、FNTT 的具体关系是：
     --8<-- "docs/math/code/poly/ntt/ntt_1.cpp"
     ```
 
-## 参考资料与拓展阅读
+## 拓展阅读
 
 1.  [FWT（快速沃尔什变换）零基础详解 qaq（ACM/OI）](https://zhuanlan.zhihu.com/p/41867199)
 2.  [FFT（快速傅里叶变换）0 基础详解！附 NTT（ACM/OI）](https://zhuanlan.zhihu.com/p/40505277)

@@ -429,7 +429,7 @@ $$
 -   [Permutations](https://codeforces.com/gym/421334/problem/A)
 -   [\[Grand Prix of Yekaterinburg 2015\] Problem H. Heimdall](https://disk.yandex.com/i/OfEXXcu-anMHuw)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Schreier–Sims algorithm - Wikipedia](https://en.wikipedia.org/wiki/Schreier%E2%80%93Sims_algorithm)
 -   [Sims, Charles C, Computational methods in the study of permutation groups, Computational Problems in Abstract Algebra, pp. 169–183, Pergamon, Oxford, 1970.](https://www.sciencedirect.com/science/article/pii/B9780080129754500205)
@@ -439,6 +439,8 @@ $$
 -   [Derek Holt's Slides on The Schreier–Sims algorithm for finite permutation groups](https://blogs.cs.st-andrews.ac.uk/codima/files/2015/11/CoDiMa2015_Holt.pdf)
 -   [Martin Jaggi, Implementations of 3 Types of the Schreier–Sims Algorithm, MAS334 - Mathematics Computing Project, 2005](https://www.m8j.net/data/List/Files-118/Documentation.pdf)
 -   [Henrik Bäärnhielm. The Schreier–Sims algorithm for matrix groups](https://henrik.baarnhielm.net/schreiersims.pdf)
+
+## 参考资料与注释
 
 [^knuth-year]: Knuth 的论文是在 1991 年发表的，但是他的改进在 1981 年就通过会议广泛地宣传．论文是基于他的会议讲稿写作的．
 

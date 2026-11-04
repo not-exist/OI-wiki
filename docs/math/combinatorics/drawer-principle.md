@@ -24,7 +24,7 @@
 
 鸽巢原理可以有如下叙述：对于 $S$ 的一个覆盖 $\{A_1,A_2\ldots A_k\}$ 有至少一个集合 $A_i$ 满足 $\left\vert A_i \right\vert \geq \left\lceil \dfrac{\left\vert S \right\vert}{k} \right\rceil$．
 
-## 参考文献
+## 拓展阅读
 
 -   [Wikipedia: Pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)
 -   *Discrete Mathematics and Its Applications*: Chapter 6, Section 1

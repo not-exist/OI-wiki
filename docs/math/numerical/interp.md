@@ -219,7 +219,7 @@ $$
 -   [「联合省选 2022」填树](https://loj.ac/p/3701)
 -   [「NOI2019」机器人](https://loj.ac/p/3157)
 
-## 参考资料
+## 拓展阅读
 
 1.  [Interpolation - Wikipedia](https://en.wikipedia.org/wiki/Interpolation)
 2.  [Newton polynomial - Wikipedia](https://en.wikipedia.org/wiki/Newton_polynomial)

@@ -580,6 +580,6 @@ $$
     --8<-- "docs/math/code/poly/fft/fft_3.cpp"
     ```
 
-## 参考文献
+## 拓展阅读
 
 1.  [桃酱的算法笔记](https://zhuanlan.zhihu.com/p/41867199).

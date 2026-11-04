@@ -276,6 +276,6 @@ Catalan 数的这些形式都可以高效计算：前两个形式将它转换为
 -   [Luogu P5014 水の三角（修改版）](https://www.luogu.com.cn/problem/P5014)
 -   [Luogu P3978 \[TJOI2015\] 概率论](https://www.luogu.com.cn/problem/P3978)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Catalan number - Wikipedia](https://en.wikipedia.org/wiki/Catalan_number)

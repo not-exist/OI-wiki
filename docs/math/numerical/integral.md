@@ -167,6 +167,6 @@ $$
 -   [HDU1724 Ellipse](https://acm.hdu.edu.cn/showproblem.php?pid=1724)
 -   [NOI2005 月下柠檬树](https://www.luogu.com.cn/problem/P4207)
 
-## 参考资料
+## 拓展阅读
 
 <https://doi.org/10.1145/321526.321537>：该文章讨论了自适应 Simpson 法的改进方案，其中详细论述了上文代码中的常数 `15` 的由来与优势．

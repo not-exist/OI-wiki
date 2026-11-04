@@ -834,7 +834,7 @@ $$
 -   [UOJ540 联合省选 2020 组合数问题](https://uoj.ac/problem/540)
 -   [UOJ269 清华集训 2016 如何优雅地求和](https://uoj.ac/problem/269)
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [Stirling Number of the First Kind - Wolfram MathWorld](http://mathworld.wolfram.com/StirlingNumberoftheFirstKind.html)
 2.  [Stirling Number of the Second Kind - Wolfram MathWorld](http://mathworld.wolfram.com/StirlingNumberoftheSecondKind.html)

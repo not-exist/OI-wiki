@@ -455,7 +455,7 @@ $$
 
 在实际应用时，我们往往是对一个已知的微分有限的 GF 提取其远处系数，从而 $m,d$ 均为常数，也即做到了 $\Theta(\sqrt n\log n)$ 的远处系数求值．
 
-## 参考文献
+## 拓展阅读
 
 -   Alin Bostan, Pierrick Gaudry, and Eric Schost. Linear recurrences with polynomial coefficients and application to integer factorization and Cartier–Manin operator.
 -   Min\_25 的博客

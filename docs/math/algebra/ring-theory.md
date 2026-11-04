@@ -808,12 +808,14 @@ $$
 
 当然，对乘法群结构的分析蕴含着比原根存在的条件更多的信息．它清楚地反映了乘法群中不同元素的阶．群 $(\mathbf Z/n\mathbf Z)^\times$ 中，满足 $x^k=1$ 的元素 $x$，也就是同余方程 $x^k\equiv 1\pmod n$ 的解，它称为 **模 $n$ 的 $k$ 次单位根**（$k$-th root of unity modulo $n$）；阶恰为 $k$ 的元素，则称为 **模 $n$ 的 $k$ 次本原单位根**（primitive $k$-th root of unity modulo $n$）．利用乘法群的结构，这些单位根的存在性和数目都可以得到精确的计算．最后，群 $(\mathbf Z/n\mathbf Z)^\times$ 中所有元素的阶的最小公倍数，即对所有 $x\in (\mathbf Z/n\mathbf Z)^\times$ 都满足 $x^k=1$ 的最小正整数 $k$，表示为 $n$ 的函数，就是 [Carmichael 函数](../number-theory/primitive-root.md#carmichael-函数)．它的一系列性质，都可以从乘法群的结构中获得．
 
-## 参考资料和注释
+## 拓展阅读
 
 -   Dummit, D.S. and Foote, R.M. (2004) Abstract Algebra. 3rd Edition, John Wiley & Sons, Inc.
 -   [Quadratic integer - Wikipedia](https://en.wikipedia.org/wiki/Quadratic_integer)
 -   [Formal power series - Wikipedia](https://en.wikipedia.org/wiki/Formal_power_series)
 -   [Multiplicative group of integers modulo $n$- Wikipedia](https://en.wikipedia.org/wiki/Multiplicative_group_of_integers_modulo_n)
+
+## 参考资料与注释
 
 [^ideal-history]: <https://en.wikipedia.org/wiki/Ideal_(ring_theory)#History>
 

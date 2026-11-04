@@ -375,7 +375,7 @@ $$
 
 方程组同解，等价于对应矩阵的行空间 $R(A^T)$ 相同．
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  丘维声，高等代数（下）．清华大学出版社．
 2.  [Vector space](https://en.wikipedia.org/w/index.php?title=Vector_space&oldid=1108546097).*Wikipedia, The Free Encyclopedia*.

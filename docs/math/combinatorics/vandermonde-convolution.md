@@ -89,6 +89,6 @@ $$
 
 -   [洛谷 P2791 幼儿园篮球题](https://www.luogu.com.cn/problem/P2791)
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [Vandermonde's Convolution Formula](https://www.cut-the-knot.org/arithmetic/algebra/VandermondeConvolution.shtml)
