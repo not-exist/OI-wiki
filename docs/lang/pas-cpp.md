@@ -763,8 +763,6 @@ Pascal 在上个世纪后半叶是门很流行的语言，它早于 C 语言，�
 | 截断取整 | `trunc(a)` | `trunc(a)`          |
 | 近似取整 | `round(a)` | `round(a)`          |
 
-[^ref1]: Extended Pascal 中有 `a**b`，不过需要导入 `Math` 库．
-
 其他函数请参考：
 
 -   [常用数学函数 - cppreference.com](https://zh.cppreference.com/w/cpp/numeric/math)
@@ -773,3 +771,7 @@ Pascal 在上个世纪后半叶是门很流行的语言，它早于 C 语言，�
 
 -   [Lazarus wiki](https://wiki.freepascal.org/)
 -   [Free Pascal Reference guide](https://freepascal.org/docs-html/current/ref/ref.html)
+
+## 参考资料与注释
+
+[^ref1]: Extended Pascal 中有 `a**b`，不过需要导入 `Math` 库．
