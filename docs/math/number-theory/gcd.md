@@ -509,6 +509,6 @@ int exgcd(int a, int b, int &x, int &y) {
 -   [GYM - (J) once upon a time](http://codeforces.com/gym/100963)
 -   [UVa - 12775 - Gift Dilemma](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4628)
 
-## 参考资料与链接
+## 参考资料与注释
 
 [^1]: [libstdc++: std Namespace Reference](https://gcc.gnu.org/onlinedocs/libstdc++/libstdc++-html-USERS-4.4/a00978.html#a2686a128df5a576cb53a1ed5f674607)

@@ -433,10 +433,12 @@ $$
     --8<-- "docs/math/code/factorial/wilson_1.cpp"
     ```
 
-## 参考资料
+## 拓展阅读
 
 -   冯克勤．《初等数论及其应用》．
 -   [Wilson's theorem - Wikipedia](https://en.wikipedia.org/wiki/Wilson%27s_theorem)
 -   [Legendre's formula - Wikipedia](https://en.wikipedia.org/wiki/Legendre%27s_formula)
+
+## 参考资料与注释
 
 **本页面主要译自博文 [Вычисление факториала по модулю](http://e-maxx.ru/algo/modular_factorial) 与其英文翻译版 [Factorial modulo p](https://cp-algorithms.com/algebra/factorial-modulo.html)．其中俄文版版权协议为 Public Domain + Leave a Link；英文版版权协议为 CC-BY-SA 4.0．内容有改动．**

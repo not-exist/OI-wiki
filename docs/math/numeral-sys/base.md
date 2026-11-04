@@ -265,7 +265,7 @@ $a_n\cdots a_1a_0$ 在 $b$ 进制下表示的数为 $\sum_{i=0}^n a_ib^i$，而�
 -   当 `<前缀>` 为 `1`、`2`、`3`、`4`、`5`、`6`、`7`、`8` 或 `9` 时表示十进制字面量，此时 `<数位>` 中的字符只能在 `0, 1, 2, 3, 4, 5, 6, 7, 8, 9` 中选取；
 -   C++14 起，当 `<前缀>` 为 `0b` 或 `0B` 时表示二进制字面量，此时 `<数位>` 中的字符只能在 `0, 1` 中选取．例如 `0b11001010` 为 $11001010_{(2)}=202$．
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Positional notation - Wikipedia](https://en.wikipedia.org/wiki/Positional_notation)
 -   [Method of complements - Wikipedia](https://en.wikipedia.org/wiki/Method_of_complements)
@@ -273,6 +273,8 @@ $a_n\cdots a_1a_0$ 在 $b$ 进制下表示的数为 $\sum_{i=0}^n a_ib^i$，而�
 -   [Bijective numeration - Wikipedia](https://en.wikipedia.org/wiki/Bijective_numeration)
 -   [Midy's theorem - Wikipedia](https://en.wikipedia.org/wiki/Midy%27s_theorem)
 -   [N3472 - Binary Literals in the C++ Core Language](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3472.pdf)
+
+## 参考资料与注释
 
 [^note1]: 我们把最高的非 $0$ 位之前的 $0$ 称为 [**前导零**](https://en.wikipedia.org/wiki/Leading_zero)（leading zero）．类似地，我们可以定义 [**后导零**](https://en.wikipedia.org/wiki/Trailing_zero)（trailing zero）．
 

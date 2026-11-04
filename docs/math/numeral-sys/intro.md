@@ -7,6 +7,6 @@
 
 算法竞赛中，我们一般只关注不同数字系统间的转化关系，详见 [进位制](./base.md)．
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Numeral system - Wikipedia](https://en.wikipedia.org/wiki/Numeral_system)

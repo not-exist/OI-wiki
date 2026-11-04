@@ -139,8 +139,10 @@ $$
 -   [Luogu P2054「AHOI2005」洗牌](https://www.luogu.com.cn/problem/P2054)
 -   [LOJ 2034「SDOI2016」排列计数](https://loj.ac/problem/2034)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Modular multiplicative inverse - Wikipedia](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse)
+
+## 参考资料与注释
 
 [^linear-recursion]: [riteme 在知乎上的回答](https://www.zhihu.com/question/59033693/answer/323292359) 中指出，这样做理论上已知的复杂度的上界是 $O(p^{1/3+\varepsilon})$，而在实际随机数据中的表现接近于 $O(\log p)$．

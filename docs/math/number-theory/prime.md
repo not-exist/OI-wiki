@@ -370,7 +370,7 @@ author: Ir1d, Tiphereth-A, c-forrest, Xeonacid, Enter-tainer, StudyingFather, ia
     --8<-- "docs/math/code/prime/prime_2.cpp"
     ```
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  Rui-Juan Jing, Marc Moreno-Maza, Delaram Talaashrafi, "[Complexity Estimates for Fourier-Motzkin Elimination](https://arxiv.org/abs/1811.01510)", Journal of Functional Programming 16:2 (2006) pp 197-217.
 2.  [数论部分第一节：素数与素性测试](http://www.matrix67.com/blog/archives/234)
@@ -380,6 +380,8 @@ author: Ir1d, Tiphereth-A, c-forrest, Xeonacid, Enter-tainer, StudyingFather, ia
 6.  [桃子的算法笔记——反素数详解（acm/OI）](https://zhuanlan.zhihu.com/p/41759808)
 7.  [The Rabin-Miller Primality Test](http://home.sandiego.edu/~dhoffoss/teaching/cryptography/10-Rabin-Miller.pdf)
 8.  [Highly composite number - Wikipedia](https://en.wikipedia.org/wiki/Highly_composite_number)
+
+## 参考资料与注释
 
 [^inf-fermat-pp]: Pomerance, Carl, John L. Selfridge, and Samuel S. Wagstaff. "The pseudoprimes to 25⋅ 10⁹." Mathematics of Computation 35, no. 151 (1980): 1003-1026. 的定理 1 说明了，对于固定的基底 $a$，能够通过更强的 Miller–Rabin 素性测试的合数也是无穷多的．
 

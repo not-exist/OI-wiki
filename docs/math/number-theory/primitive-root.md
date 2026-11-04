@@ -559,7 +559,7 @@ Carmichael 函数是一个 [数论函数](./basic.md#数论函数)．本节讨�
 
 利用解析数论还可以得到 Carmichael 数分布的一些性质．设 $C(n)$ 为小于等于 $n$ 的 Carmichael 数个数．Alford, Granville, and Pomerance[^alford1994infinitely]证明，对于充分大的 $n$，有 $C(n)>n^{2/7}$．由此，Carmichael 数有无限多个．在这之前，Erdős[^erdos1956pseudoprimes]已经证明，$C(n) < n\exp\left(-c\dfrac{\ln n\ln\ln\ln n}{\ln\ln n}\right)$，其中 $c$ 为常数．因此，Carmichael 数的分布（相对于素数来说）十分稀疏．实际上，有[^pinchcarmichael] $C(10^9)=646$，$C(10^{18})=1~401~644$．
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Primitive root modulo n - Wikipedia](https://en.wikipedia.org/wiki/Primitive_root_modulo_n)
 -   [The order of a unit - Course Notes](https://crypto.stanford.edu/pbc/notes/numbertheory/order.html)
@@ -568,6 +568,8 @@ Carmichael 函数是一个 [数论函数](./basic.md#数论函数)．本节讨�
 -   [Carmichael's Lambda Function - Brilliant Math & Science Wiki](https://brilliant.org/wiki/carmichaels-lambda-function/)
 -   [Carmichael number - Wikipedia](https://en.wikipedia.org/wiki/Carmichael_number)
 -   [Carmichael Number - Wolfram MathWorld](https://mathworld.wolfram.com/CarmichaelNumber.html)
+
+## 参考资料与注释
 
 [^yuan1959note]: Wang Y. "On the least primitive root of a prime." (in Chinese). Acta Math Sinica, 1959, 4: 432–441; English transl. in*Sci. Sinica*, 1961, 10: 1–14.
 

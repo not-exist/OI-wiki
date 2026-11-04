@@ -311,7 +311,7 @@ $$
 5^{\operatorname{ind}_5(2^{\lceil e/2\rceil}+1)/2^{\lceil e/2\rceil - 2}}\bmod{2^e}.
 $$
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Fast modular multiplication by orz - Codeforces](https://codeforces.com/blog/entry/96759)
 -   [Barrett Reduction - Wikipedia](https://en.wikipedia.org/wiki/Barrett_reduction)
@@ -323,6 +323,8 @@ $$
 -   Barrett, Paul. "Implementing the Rivest Shamir and Adleman public key encryption algorithm on a standard digital signal processor." In Conference on the Theory and Application of Cryptographic Techniques, pp. 311-323. Berlin, Heidelberg: Springer Berlin Heidelberg, 1986.
 -   Becker, Hanno, Vincent Hwang, Matthias J. Kannwischer, Bo-Yin Yang, and Shang-Yi Yang. "Neon NTT: Faster Dilithium, Kyber, and Saber on Cortex-A72 and Apple M1." IACR Transactions on Cryptographic Hardware and Embedded Systems (2022): 221-244.
 -   Montgomery, Peter L. "Modular multiplication without trial division." Mathematics of computation 44, no. 170 (1985): 519-521.
+
+## 参考资料与注释
 
 [^long-double-80bit]: 这适用于大多数 64 位系统上的 GCC 或 Clang 编译器．
 

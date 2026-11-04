@@ -462,7 +462,7 @@ $$
     --8<-- "docs/math/code/dirichlet/dirichlet-3.cpp:core"
     ```
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Dirichlet convolution - Wikipedia](https://en.wikipedia.org/wiki/Dirichlet_convolution)
 -   [Dirichlet series - Wikipedia](https://en.wikipedia.org/wiki/Dirichlet_series)

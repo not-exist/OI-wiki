@@ -199,13 +199,15 @@ $$
 3.  $\lnot$：将 $\lnot x$ 用 $1\oplus x$ 代替，如 $\lnot(1\oplus x\oplus y)=1\oplus 1\oplus x\oplus y=x\oplus y$，
 4.  $\lor$：将 $x\lor y$ 用 $1\oplus((1\oplus x)\land(1\oplus y))$ 或 $x\oplus y\oplus (x\land y)$ 代替，如 $(1\oplus x)\lor(1\oplus x\oplus y)=1\oplus((1\oplus 1\oplus x)\land(1\oplus 1\oplus x\oplus y))=1\oplus x\oplus(x\land y)$．
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [Boolean algebra - Wikipedia](https://en.wikipedia.org/wiki/Boolean_algebra)
 2.  [Boolean function - Wikipedia](https://en.wikipedia.org/wiki/Boolean_function)
 3.  [Logical connective - Wikipedia](https://en.wikipedia.org/wiki/Logical_connective)
 4.  [Disjunctive normal form - Wikipedia](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
 5.  [Zhegalkin polynomial - Wikipedia](https://en.wikipedia.org/wiki/Zhegalkin_polynomial)
+
+## 参考资料与注释
 
 [^note1]: 用于命题推导时应使用双横长箭头，如 $A\implies B$、$A\impliedby B$、$A\iff B$ 等．
 

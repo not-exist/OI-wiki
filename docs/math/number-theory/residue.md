@@ -424,11 +424,13 @@ $$
         --8<-- "docs/math/code/residue/tonelli-shanks.cpp"
         ```
 
-## 参考资料与注释
+## 拓展阅读
 
 -   冯克勤．初等数论及其应用．
 -   [Root of unity modulo n - Wikipedia](https://en.wikipedia.org/wiki/Root_of_unity_modulo_n)
 -   [No.981 一般冪乗根 解説 by 37zigen](https://yukicoder.me/problems/no/981/editorial)
+
+## 参考资料与注释
 
 [^fnnt]: 实际上，模数 $m$ 未必是素数．只要 $a$ 是模 $m$ 的 $k=2^e$ 次本原单位根，就可以用于模 $m$ 的快速数论变换．但是，由于通常需要处理的 $2^e$ 比较大，这意味着模数 $m$ 中的每个素因子都是 $c2^e+1$ 形式．因此，单个素因子就很大，而模数 $m$ 通常会更大，因而一般模数的情形并没有素数模的情形常用．
 

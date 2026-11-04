@@ -270,7 +270,7 @@ Pollard Rho 算法中的期望迭代次数为 $O(\sqrt p)$，这里 $p$ 是 $N$ 
     --8<-- "docs/math/code/pollard-rho/pollard-rho_1.cpp"
     ```
 
-## 参考资料与链接
+## 参考资料与注释
 
 [^ref1]: <https://en.wikipedia.org/wiki/Birthday_problem#Reverse_problem>
 

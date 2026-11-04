@@ -128,10 +128,6 @@ $$
 
 上面的和等于使用二项式定理对 $(1+2)^n$ 的展开，因此有 $3^n$ 个不同的组合．
 
-### 参考资料
-
-**本页面主要译自博文 [Перебор всех подмасок данной маски](http://e-maxx.ru/algo/all_submasks) 与其英文翻译版 [Submask Enumeration](https://cp-algorithms.com/algebra/all-submasks.html)．其中俄文版版权协议为 Public Domain + Leave a Link；英文版版权协议为 CC-BY-SA 4.0．**
-
 ### 习题
 
 - [Atcoder - Close Group](https://atcoder.jp/contests/abc187/tasks/abc187_f)
@@ -139,3 +135,7 @@ $$
 - [Codeforces - Sandy and Nuts](http://codeforces.com/problemset/problem/599/E)
 - [UVa 1439 - Exclusive Access 2](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4185)
 - [UVa 11825 - Hackers' Crackdown](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2925)
+
+## 参考资料与注释
+
+**本页面主要译自博文 [Перебор всех подмасок данной маски](http://e-maxx.ru/algo/all_submasks) 与其英文翻译版 [Submask Enumeration](https://cp-algorithms.com/algebra/all-submasks.html)．其中俄文版版权协议为 Public Domain + Leave a Link；英文版版权协议为 CC-BY-SA 4.0．**

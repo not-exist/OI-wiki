@@ -524,11 +524,13 @@ $$
 -   计算阶乘中素数因子幂次的 [Legendre 公式](./factorial.md#legendre-公式)．
 -   [Beatty 数列](../game-theory/impartial-game.md#wythoff-游戏)、Rayleigh 定理以及 Wythoff 博弈．
 
-## 参考资料与注释
+## 拓展阅读
 
 -   潘承洞，潘承彪．初等数论．北京大学出版社．
 -   [Floor and ceiling functions - Wikipedia](https://en.wikipedia.org/wiki/Floor_and_ceiling_functions)
 -   Graham, Ronald L., Donald E. Knuth, and Oren Patashnik. "Concrete mathematics: a foundation for computer science." (1989).
+
+## 参考资料与注释
 
 [^ref1]: [Are all primes (past 2 and 3) of the forms 6n+1 and 6n-1?](https://primes.utm.edu/notes/faq/six.html)
 

@@ -199,7 +199,7 @@ $S_1$ 可以用杜教筛求，$S_2$ 直接按照公式推，这样 $G$ 也可以
 -   [PE639 Summing a multiplicative function](https://projecteuler.net/problem=639)
 -   [PE484 Arithmetic Derivative](https://projecteuler.net/problem=484)
 
-## 参考资料
+## 拓展阅读
 
 -   [破壁人五号 - Powerful number 筛略解](https://www.cnblogs.com/wallbreaker5th/p/13901487.html)
 -   [command\_block - 杜教筛（+ 贝尔级数 + powerful number）](https://www.luogu.com.cn/blog/command-block/du-jiao-shai)

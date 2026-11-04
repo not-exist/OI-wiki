@@ -96,7 +96,7 @@ $$
 
 概率只有在确定的概率空间下讨论才有意义．我们前面提到的 Bertrand 悖论归根结底就是因对样本空间 $\Omega$ 的定义不明确而产生的．
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [概率论（数学分支）\_百度百科](https://baike.baidu.com/item/概率论/829122)
 -   [Probability - Wikipedia](https://en.wikipedia.org/wiki/Probability)

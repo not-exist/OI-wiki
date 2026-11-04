@@ -335,16 +335,19 @@ $$
 
 它们的通解在此不再赘述．类似的方法还可以用于证明 $x^3+y^3=z^3$ 无解．
 
-## 参考文献与注释
+## 拓展阅读
 
 -   [Quadratic field - Wikipedia](https://en.wikipedia.org/wiki/Quadratic_field)
 -   [Quadratic integer - Wikipedia](https://en.wikipedia.org/wiki/Quadratic_integer)
 -   [Gaussian integer - Wikipedia](https://en.wikipedia.org/wiki/Gaussian_integer)
 -   [Eisenstein integer - Wikipedia](https://en.wikipedia.org/wiki/Eisenstein_integer)
 -   [Kronecker symbol - Wolfram MathWorld](https://mathworld.wolfram.com/KroneckerSymbol.html)
--   [Dirichlet character - Wikipedia](https://en.wikipedia.org/wiki/Dirichlet_character)
 -   [Theodorus J. Dekker's Notes on Primes in Quadratic Fields](https://staff.science.uva.nl/t.j.dekker/PrimesPaper/Primes.pdf)
 -   [Franz Lemmermeyer's Notes on Ideals in Quadratic Number Fields](http://www.fen.bilkent.edu.tr/~franz/ant/ant02.pdf)
 -   [J.S. Milne - Algebraic Number Theory](https://www.jmilne.org/math/CourseNotes/ANT301.pdf)
+
+## 参考资料与注释
+
+-   [Dirichlet character - Wikipedia](https://en.wikipedia.org/wiki/Dirichlet_character)
 
 [^omega]: 注意，此处 $\omega$ 的选择与上文的选择并不相同．按照惯例，在讨论一般的二次整数环时常规定 $\omega=(1+\sqrt{d})/2$（当 $d\equiv 1\pmod4$ 时），而对于 Eisenstein 整数环又往往规定 $\omega=(-1+\sqrt{-3})/2$．这个区别没有任何实质影响，但是可能会引起部分表达式的形式改变．注意，不应将 Eisenstein 整数环写成 $\mathbf Z[\sqrt{-3}]$．

@@ -291,7 +291,7 @@ $$
 
     则求法参见 [k 次剩余](./residue.md)．
 
-## 参考资料
+## 拓展阅读
 
 1.  [Congruence Equation -- from Wolfram MathWorld](https://mathworld.wolfram.com/CongruenceEquation.html)
 2.  [Lagrange's theorem (number theory) - Wikipedia](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_%28number_theory%29)

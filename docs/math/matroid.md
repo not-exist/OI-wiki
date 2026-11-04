@@ -335,7 +335,7 @@ $$
         -   **供应拟阵 ($M_2$)**：定义为不超过每种资源供应量的分配方案，即独立集族 $\mathcal{I}_2$ 包含所有满足资源供应限制的资源分配集合．
     2.  **求解拟阵交**：通过求解 $M = M_1 \cap M_2$，找到既满足所有项目需求又不超过资源供应量的资源分配方案．
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [Wikipedia - Matroid](https://en.wikipedia.org/wiki/Matroid)
 2.  [百度百科 - 拟阵](https://baike.baidu.com/item/%E6%8B%9F%E9%98%B5)

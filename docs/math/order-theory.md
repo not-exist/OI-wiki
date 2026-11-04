@@ -279,7 +279,7 @@ C++ STL 中 [需要使用比较的算法和数据结构](https://en.cppreference
 -   $x \geq y$ 为 $x \nless y$；
 -   $x=y$ 为 $x \nless y\land y \nless x$.
 
-## 参考资料与拓展阅读
+## 拓展阅读
 
 1.  [Order theory - From Academic Kids](https://academickids.com/encyclopedia/index.php/Order_theory)
 2.  [Binary Relation - Wikipedia](https://en.wikipedia.org/wiki/Binary_relation)

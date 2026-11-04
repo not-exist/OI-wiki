@@ -596,12 +596,14 @@ $$
 
 除此之外，还有一些常见的图论模型，它所有的可行解恰巧是某个顶点均为整点的多胞形的全体顶点．因此，可以通过巧妙地选取约束，使得相应的组合优化问题的解，恰为某个线性规划问题的最优解．例如，一般图匹配和生成树等图论模型都属于这种情况，因此 [一般图最大（权）匹配](../graph/graph-matching/general-weight-match.md) 和 [最小生成树](../graph/mst.md) 等问题同样可以转化为线性规划问题．
 
-## 参考文献与注释
+## 拓展阅读
 
 -   Schrijver, Alexander. Theory of linear and integer programming. John Wiley & Sons, 1998.
 -   Papadimitriou, Christos H., and Kenneth Steiglitz. Combinatorial optimization: algorithms and complexity. Courier Corporation, 1998.
 -   [Duality in linear programming. Part 1—definition and construction. by adamant - Codeforces blog](https://codeforces.com/blog/entry/105049)
 -   [Duality in linear programming. Part 2—in competitive programming. by adamant - Codeforces blog](https://codeforces.com/blog/entry/105789)
+
+## 参考资料与注释
 
 [^poly-names]: 不同文献可能对这两个名词有着不同的定义：有些文献会将有界的情形称作「多面体」，而将无界的情形称作「多胞形」；有些文献不会假定它们一定是凸集；有些文献会用「多面体」称呼三维空间中的多胞形．本文采取了与 Schrijver (1998) 和 Boyd and Vandenberghe (2004) 等文献一致的定义．
 

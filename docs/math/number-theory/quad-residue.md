@@ -530,10 +530,12 @@ $$
 -   [洛谷 P5491【模板】二次剩余](https://www.luogu.com.cn/problem/P5491)
 -   [「Timus 1132」Square Root](https://acm.timus.ru/problem.aspx?space=1&num=1132)
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [Quadratic residue - Wikipedia](https://en.wikipedia.org/wiki/Quadratic_residue)
 2.  [Euler's criterion - Wikipedia](https://en.wikipedia.org/wiki/Euler%27s_criterion)
+
+## 参考资料与注释
 
 [^ref1]: Daniel. J. Bernstein. Faster Square Roots in Annoying Finite Fields.
 

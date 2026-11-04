@@ -1879,7 +1879,7 @@ Galois 定理揭示了纯二次不尽根（pure quadratic surd）——即形如
 -   [Luogu P5179. Fraction](https://www.luogu.com.cn/problem/P5179)
 -   [Luogu P7739. \[NOI2021\] 密码箱](https://www.luogu.com.cn/problem/P7739)
 
-## 参考文献与拓展阅读
+## 拓展阅读
 
 -   Hardy, G. H., Wright, E. M., Heath-Brown, R., & Silverman, J. (2008). An Introduction to the Theory of Numbers. Oxford Mathematics.
 -   朱尧辰，王连祥《丢番图逼近引论》
@@ -1890,6 +1890,8 @@ Galois 定理揭示了纯二次不尽根（pure quadratic surd）——即形如
 -   [Understanding Bill Gosper's continued fraction arithmetic (implemented in Python)](https://hsinhaoyu.github.io/cont_frac/)
 
 **本页面主要内容译自博文 [Continued fractions](https://cp-algorithms.com/algebra/continued-fractions.html)，版权协议为 CC-BY-SA 4.0，内容有改动．**
+
+## 参考资料与注释
 
 [^one-representation]: 自然数 $1$ 只有非标准表示：$1=[1]=[0,1]$．
 

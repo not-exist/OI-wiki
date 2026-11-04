@@ -368,7 +368,7 @@ $$
 
 -   [AtCoder Xmas Contest 2019 D - Sum of (-1)^f(n)](https://atcoder.jp/contests/xmascon19/tasks/xmascon19_d)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   任之洲．2016．《积性函数求和的几种方法》．2016 年信息学奥林匹克中国国家队候选队员论文．
 -   周康阳．2024．《关于积性函数求和问题的一些进展》．2024 年信息学奥林匹克中国国家队候选队员论文．
@@ -377,5 +377,7 @@ $$
 -   [OI 中常用数论函数求和法的简化陈述 by negiizhao - UOJ](https://negiizhao.blog.uoj.ac/blog/7165)
 -   [Dirichlet 積と、数論関数の累積和 by maspy](https://maspypy.com/dirichlet-%e7%a9%8d%e3%81%a8%e3%80%81%e6%95%b0%e8%ab%96%e9%96%a2%e6%95%b0%e3%81%ae%e7%b4%af%e7%a9%8d%e5%92%8c)
 -   [Dirichlet convolution. Part 1: Fast prefix sum computations by adamant - Codeforces](https://codeforces.com/blog/entry/117635)
+
+## 参考资料与注释
 
 [^piltz]: [Piltz divisor problem - Divisor summatory function - Wikipedia](https://en.wikipedia.org/wiki/Divisor_summatory_function#Piltz_divisor_problem)

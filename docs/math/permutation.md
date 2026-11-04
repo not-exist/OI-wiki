@@ -363,7 +363,7 @@ $$
         --8<-- "docs/math/code/permutation/rank_perm.cpp"
         ```
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Permutation - Wikipedia](https://en.wikipedia.org/wiki/Permutation)
 -   [Lehmer code - Wikipedia](https://en.wikipedia.org/wiki/Lehmer_code)

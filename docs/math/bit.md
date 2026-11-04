@@ -339,10 +339,12 @@ GCC 中还有一些用于位操作的内建函数：
 
 -   [Luogu P1225 黑白棋游戏](https://www.luogu.com.cn/problem/P1225)
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [位运算技巧](https://graphics.stanford.edu/~seander/bithacks.html)
 2.  [Bit Operation Builtins (Using the GNU Compiler Collection (GCC))](https://gcc.gnu.org/onlinedocs/gcc/Bit-Operation-Builtins.html)
 3.  [Bitwise operation - Wikipedia](https://en.wikipedia.org/wiki/Bitwise_operation)
+
+## 参考资料与注释
 
 [^note1]: 一个数二进制表示从低往高的第一个 $1$ 连同后面的零，如 $(1010)_2$ 的 `lowbit` 是 $(0010)_2$，详见 [树状数组](../ds/fenwick.md)．

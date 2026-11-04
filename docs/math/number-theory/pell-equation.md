@@ -734,7 +734,7 @@ $$
 -   [UVa 12909. Numeric Center](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=862&page=show_problem&problem=4774)
 -   [UVa 10241. Semi-triangular and also Square](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=14&page=show_problem&problem=1182)
 
-## 参考文献与注释
+## 拓展阅读
 
 -   [Pell's equation - Wikipedia](https://en.wikipedia.org/wiki/Pell%27s_equation)
 -   [John P. Robertson - Solving the generalized Pell equation $x^2-Dy^2=N$](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5ac34a344ee346855184ff949eeaed18685b155c)
@@ -742,6 +742,8 @@ $$
 -   [Existence of Solution to Pell’s Equation - Suryateja Gavva's Blog](https://surya-teja.com/2011/01/11/existence-of-solution-to-pells-equation/)
 -   [Calculating the simple continued fraction of a quadratic irrational - Number Theory Web](http://www.numbertheory.org/php/surd.html)（PQa 算法）
 -   [Solving the diophantine equation x2–Dy2 = N, D > 0 and not a perfect square, N ≠ 0 - Number Theory Web](http://www.numbertheory.org/php/patz.html)（Lagrange–Matthews–Mollin 算法）
+
+## 参考资料与注释
 
 [^not-square]: 当 $D$ 是完全平方数时，直接做因式分解可知，$(x+y\sqrt{D})(x-y\sqrt{D})=N$，因此所有解可以通过遍历 $N$ 的因数得知．特别地，当 $N=1$ 时，方程只有解 $(\pm 1,0)$；当 $N=-1$ 且 $D\neq 1$ 时，方程没有解．
 

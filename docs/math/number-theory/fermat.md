@@ -225,11 +225,13 @@ author: PeterlitsZo, Tiphereth-A
 -   [Luogu P3934 \[Ynoi Easy Round 2016\] 炸脖龙 I](https://www.luogu.com.cn/problem/P3934)
 -   [Luogu P6736「Wdsr-2」白泽教育](https://www.luogu.com.cn/problem/P6736)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Fermat's little theorem - Wikipedia](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem)
 -   [Euler's theorem - Wikipedia](https://en.wikipedia.org/wiki/Euler%27s_theorem)
 -   Hardy, Godfrey Harold, and Edward Maitland Wright. An introduction to the theory of numbers. Oxford university press, 1979.
+
+## 参考资料与注释
 
 [^ex-euler]: 这一名字主要出现在算法竞赛圈中，而并非该结论的通用名称．
 

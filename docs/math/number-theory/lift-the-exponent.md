@@ -121,6 +121,6 @@
     
     因此命题得证．
 
-## 参考资料
+## 拓展阅读
 
 1.  [Lifting-the-exponent lemma - Wikipedia](https://en.wikipedia.org/wiki/Lifting-the-exponent_lemma)

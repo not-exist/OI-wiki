@@ -671,7 +671,7 @@ Bland 规则效率很低，因为规则本身对入基和出基变量的选择�
 -   [Codeforces 1430 G. Yet Another DAG Problem](https://codeforces.com/problemset/problem/1430/G)
 -   [AtCoder Beginner Contest 231 H - Minimum Coloring](https://atcoder.jp/contests/abc231/tasks/abc231_h)
 
-## 参考资料
+## 拓展阅读
 
 -   [线性规划之单纯形法【超详解 + 图解】](https://www.cnblogs.com/ECJTUACM-873284962/p/7097864.html)
 -   [2016 国家集训队论文](https://github.com/OI-wiki/libs/blob/master/%E9%9B%86%E8%AE%AD%E9%98%9F%E5%8E%86%E5%B9%B4%E8%AE%BA%E6%96%87/%E5%9B%BD%E5%AE%B6%E9%9B%86%E8%AE%AD%E9%98%9F2016%E8%AE%BA%E6%96%87%E9%9B%86.pdf)
@@ -679,6 +679,8 @@ Bland 规则效率很低，因为规则本身对入基和出基变量的选择�
 -   Matoušek, Jiří, and Bernd Gärtner. Understanding and using linear programming. Vol. 1. Berlin: Springer, 2007.
 -   Inayatullah, Syed, Nasir Touheed, and Muhammad Imtiaz. "A streamlined artificial variable free version of simplex method." PloS one 10, no. 3 (2015): e0116156.
 -   Floudas, Christodoulos A., and Panos M. Pardalos, eds. Encyclopedia of optimization. Springer Science & Business Media, 2008.
+
+## 参考资料与注释
 
 [^notation]: 原则上，因为所有向量默认为列向量，$(x_B,x_N)$ 应该写作 $(x_B^T,x_N^T)^T$．但是为了简化记号，本文所有类似的情形都直接写作 $(x_B,x_N)$，而省略转置符号．
 

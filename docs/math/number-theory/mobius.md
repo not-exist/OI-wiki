@@ -827,7 +827,7 @@ $$
 -   [AtCoder Grand Contest 038 C - LCMs](https://atcoder.jp/contests/agc038/tasks/agc038_c)
 -   [Codeforces 1139 D. Steps to One](https://codeforces.com/problemset/problem/1139/D)
 
-## 参考文献
+## 拓展阅读
 
 -   [Möbius function - Wikipedia](https://en.wikipedia.org/wiki/M%C3%B6bius_function)
 -   [Möbius inversion formula - Wikipedia](https://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula)
