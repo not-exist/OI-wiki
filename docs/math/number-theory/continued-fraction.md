@@ -1889,9 +1889,9 @@ Galois 定理揭示了纯二次不尽根（pure quadratic surd）——即形如
 -   [Gosper's original notes on continued fraction arithmetic algorithms](https://perl.plover.com/yak/cftalk/INFO/gosper.txt)
 -   [Understanding Bill Gosper's continued fraction arithmetic (implemented in Python)](https://hsinhaoyu.github.io/cont_frac/)
 
-**本页面主要内容译自博文 [Continued fractions](https://cp-algorithms.com/algebra/continued-fractions.html)，版权协议为 CC-BY-SA 4.0，内容有改动．**
-
 ## 参考资料与注释
+
+**本页面主要内容译自博文 [Continued fractions](https://cp-algorithms.com/algebra/continued-fractions.html)，版权协议为 CC-BY-SA 4.0，内容有改动．**
 
 [^one-representation]: 自然数 $1$ 只有非标准表示：$1=[1]=[0,1]$．
 
