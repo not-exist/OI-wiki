@@ -101,7 +101,7 @@ BronKerbosch1(R, P, X):
 -   [POJ 1419 无向图最大团](http://poj.org/problem?id=1419)
 -   [POJ 1129 广播电台](http://poj.org/problem?id=1129)
 
-## 参考资料
+## 拓展阅读
 
 -   [团问题 - 维基百科](https://en.wikipedia.org/wiki/Clique_problem)
 -   [无向图的极大团、最大团（Bron–Kerbosch 算法）](https://blog.csdn.net/yo_bc/article/details/77453478)

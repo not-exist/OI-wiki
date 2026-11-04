@@ -336,7 +336,7 @@ author: GitPinkRabbit, Early0v0, Backl1ght, mcendu, ksyx, iamtwz, Xeonacid, kenl
 -   [洛谷 P4320 道路相遇](https://www.luogu.com.cn/problem/P4320)
 -   [洛谷 P10517 国土规划](https://www.luogu.com.cn/problem/P10517)
 
-## 外部链接
+## 拓展阅读
 
 immortalCO，[圆方树——处理仙人掌的利器](https://immortalco.blog.uoj.ac/blog/1955)，Universal OJ．
 

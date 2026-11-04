@@ -263,8 +263,11 @@ AOE 网中的有些活动是可以并行进行的，所以完成整个工程的�
 
 [Luogu P1347](https://www.luogu.com.cn/problem/P1347): 拓扑排序模板．
 
-## 参考
+## 拓展阅读
 
 1.  离散数学及其应用．ISBN:9787111555391
-2.  [Topological sorting - Wikipedia](https://en.wikipedia.org/wiki/Topological_sorting)
-3.  [数据结构第九讲（图：拓扑排序，关键路径，最短路径）- 知乎专栏](https://zhuanlan.zhihu.com/p/164751109)
+2.  [数据结构第九讲（图：拓扑排序，关键路径，最短路径）- 知乎专栏](https://zhuanlan.zhihu.com/p/164751109)
+
+## 参考资料与注释
+
+1.  [Topological sorting - Wikipedia](https://en.wikipedia.org/wiki/Topological_sorting)

@@ -382,7 +382,7 @@ int main() {
 // 析合树
 ```
 
-## 参考文献与链接
+## 参考资料与注释
 
 [大米饼的博客 -【学习笔记】析合树](https://www.cnblogs.com/Paul-Guderian/p/11020708.html)
 

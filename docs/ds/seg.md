@@ -666,11 +666,13 @@ $$
         --8<-- "docs/ds/code/seg/seg_8.cpp"
         ```
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [统计的力量 - 张昆玮](https://github.com/hzwer/shareOI/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E7%BB%9F%E8%AE%A1%E7%9A%84%E5%8A%9B%E9%87%8F%E2%80%94%E2%80%94%E7%BA%BF%E6%AE%B5%E6%A0%91%E5%85%A8%E6%8E%A5%E8%A7%A6_%E5%BC%A0%E6%98%86%E7%8E%AE.pptx)
 -   [Generalizing Segment Trees by Eklavya](https://sharmaeklavya2.github.io/blog/generalizing-segment-trees.html)
 -   [线段树进阶 Part 1 by Alex\_Wei - 洛谷](https://www.luogu.com.cn/article/r1mp3hga)
+
+## 参考资料与注释
 
 [^monoid]: 严格地说，线段树维护的信息只需构成半群，不必要求单位元存在．递归实现中用到单位元，通常是因为区间查询以它作为累计信息的初值；改为按相交情况分类讨论即可避开．不过，非递归实现中的多余叶结点和动态开点中的空结点都绕不开单位元．退一步说，即使确实需要，也总可以向半群 $S$ 中添加一个元素 $e$，规定它与任意元素运算的结果都是该元素本身，从而得到幺半群 $S\cup\{e\}$．本文为表述方便，总是假定维护的是幺半群信息．
 

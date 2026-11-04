@@ -535,9 +535,11 @@ author: c-forrest, Enter-tainer, giiiiiithub, hly1204, iamtwz, Ir1d, kigawas, ks
 
 2-3 树和左偏红黑树的插入与删除操作是一一对应的．[^23-vs-llrbt]
 
-## 参考资料与拓展阅读
+## 拓展阅读
 
 -   [Left-Leaning Red-Black Trees](https://sedgewick.io/wp-content/themes/sedgewick/papers/2008LLRB.pdf)-  Robert Sedgewick Princeton University
 -   [Balanced Search Trees](https://algs4.cs.princeton.edu/lectures/keynote/33BalancedSearchTrees-2x2.pdf)-\_Algorithms\_Robert Sedgewick | Kevin Wayne
+
+## 参考资料与注释
 
 [^23-vs-llrbt]: [这篇博文](https://riteme.site/blog/2016-3-12/2-3-tree-and-red-black-tree.html) 提供了详细的描述．文中的「红黑树」实际上指的是「左偏红黑树」．

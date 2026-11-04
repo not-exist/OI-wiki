@@ -365,7 +365,7 @@ $$
 -   [UOJ #79. 一般图最大匹配](https://uoj.ac/problem/79)
 -   [UOJ#171.【WC2016】挑战 NPC](https://uoj.ac/problem/171)
 
-## 参考资料
+## 拓展阅读
 
 1.  Mucha M, Sankowski P.[Maximum matchings via Gaussian elimination](http://web.eecs.umich.edu/~pettie/matching/Mucha-Sankowski-maximum-matching-matrix-multiplication.pdf)
 2.  周子鑫，杨家齐《基于线性代数的一般图匹配》

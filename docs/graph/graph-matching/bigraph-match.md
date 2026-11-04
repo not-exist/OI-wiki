@@ -349,7 +349,7 @@ $$
 -   [Luogu P2071 - 座位安排](https://www.luogu.com.cn/problem/P2071)
 -   [LibreOJ 6002 - 最小路径覆盖](https://loj.ac/p/6002)
 
-## 参考资料
+## 拓展阅读
 
 -   [Kuhn's Algorithm - Maximum Bipartite Matching](https://cp-algorithms.com/graph/kuhn_maximum_bipartite_matching.html)
 -   [二分图最大匹配的 König 定理及其证明](https://matrix67.com/blog/archives/116)
@@ -358,5 +358,7 @@ $$
 -   陈胤伯．浅谈图的匹配算法及其应用．2015 年信息学奥林匹克中国国家队候选队员论文集．
 -   [Dulmage–Mendelsohn decomposition - Wikipedia](https://en.wikipedia.org/wiki/Dulmage%E2%80%93Mendelsohn_decomposition)
 -   [Notes on Dulmage–Mendelsohn decomposition](https://www.cse.iitm.ac.in/~meghana/matchings/bip-decomp.pdf)
+
+## 参考资料与注释
 
 [^hk-comp-ref]: Bast, Holger; Mehlhorn, Kurt; Schäfer, Guido; Tamaki, Hisao (2006), "Matching algorithms are fast in sparse random graphs", Theory of Computing Systems, 39 (1): 3–14.

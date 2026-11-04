@@ -213,7 +213,7 @@ $P(G,k)=\frac{\Pi_{i=1}^{p}{(P(H_i, k))}}{P(G[V_1], k)^{p-1}}$
 
 其中 $H_i=G[V_1 \cup V(G_i)]$
 
-## 参考资料
+## 拓展阅读
 
 1.  [Graph coloring - Wikipedia](https://en.wikipedia.org/wiki/Graph_coloring)
 2.  Welsh, D. J. A.; Powell, M. B. (1967), "[An upper bound for the chromatic number of a graph and its application to timetabling problems](https://doi.org/10.1093%2Fcomjnl%2F10.1.85)", The Computer Journal, 10 (1): 85–86

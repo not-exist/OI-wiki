@@ -232,6 +232,6 @@ $\textit{rk}(i,j)$ 记录点 $i$ 到其他所有结点中第 $j$ 小的那个结
 
 [SPOJ PT07C - The GbAaY Kingdom](https://www.spoj.com/problems/PT07C)
 
-## 参考文献
+## 拓展阅读
 
 [Play with Trees Solutions The GbAaY Kingdom](https://adn.botao.hu/adn-backup/blog/attachments/month_0705/32007531153238.pdf)

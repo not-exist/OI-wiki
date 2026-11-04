@@ -91,6 +91,6 @@ $$
 
 -   [「SDOI2010」魔法猪学院](https://www.luogu.com.cn/problem/P2483)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [\[Tutorial\] k shortest paths and Eppstein's algorithm by meooow - Codeforces](https://codeforces.com/blog/entry/102085)

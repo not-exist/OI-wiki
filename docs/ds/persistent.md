@@ -36,7 +36,7 @@ author: morris821028
 
 函数式编程需要特别的数据结构以符合语言特性，其中不可变的性质更为重要，以利于并行环境与除错．如面向对象编程的 Java 8 后引入 stream 类，支援写出函数式的语法设计，可提供惰性求值、无限值域等的特殊功能．
 
-## 参考
+## 拓展阅读
 
 -   <https://en.wikipedia.org/wiki/Persistent_data_structure>
 -   MIT 课程 <https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-854j-advanced-algorithms-fall-2005/lecture-notes/persistent.pdf>

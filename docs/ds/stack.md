@@ -133,6 +133,6 @@ cout << st2.top() << endl;
     st.clear()
     ```
 
-## 参考资料
+## 拓展阅读
 
 1.  [std::stack - zh.cppreference.com](https://zh.cppreference.com/w/cpp/container/stack)

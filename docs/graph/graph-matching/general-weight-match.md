@@ -608,7 +608,7 @@ int get_lca(int u, int v) {
 
 -   [UOJ #81. 一般图最大权匹配](https://uoj.ac/problem/81)
 
-## 参考资料
+## 拓展阅读
 
 1.  [Kolmogorov, Vladimir (2009), "Blossom V: A new implementation of a minimum cost perfect matching algorithm"](http://pub.ist.ac.at/~vnk/papers/BLOSSOM5.html)
 2.  [从匈牙利算法到带权带花树——详解对偶问题在图匹配上的应用](https://www.luogu.com.cn/blog/potassium/solution-p6699)

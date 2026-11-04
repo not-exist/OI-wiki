@@ -249,7 +249,7 @@ void Delete(int u, int v) {
     --8<-- "docs/ds/code/ett/ett_1.cpp"
     ```
 
-## 参考资料
+## 拓展阅读
 
 -   Dynamic trees as search trees via euler tours, applied to the network simplex algorithm - Robert E. Tarjan
 -   Randomized fully dynamic graph algorithms with polylogarithmic time per operation - Henzinger et al.

@@ -1035,7 +1035,7 @@ HLPP 推送的条件是 $h(u)=h(v)+1$，而如果在算法的某一时刻，存�
 
 其中 pic13 到 pic14 执行了 Relabel(4)，并进行了 GAP 优化．
 
-## 脚注
+## 参考资料与注释
 
 [^ref_ek]: <http://pisces.ck.tp.edu.tw/~peng/index.php?action=showfile&file=f6cdf7ef750d7dc79c7d599b942acbaaee86a2e3e>
 

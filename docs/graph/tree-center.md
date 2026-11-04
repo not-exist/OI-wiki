@@ -102,7 +102,7 @@ author: littleparrot12345
 
 上述算法的时间复杂度为 $O(n)$，其中 $n$ 是树中节点的数量．
 
-## 参考
+## 拓展阅读
 
 -   [TutorialsPoint: Centers of a Tree](https://www.tutorialspoint.com/centers-of-a-tree)
 -   [ProofWiki: Definition of Center of Tree](https://proofwiki.org/wiki/Definition:Center_of_Tree)

@@ -139,7 +139,7 @@ Gale–Shapley 算法中，可以由男士求婚，也可以由女士求婚．�
 -   [UOJ 41.【清华集训 2014】矩阵变换](https://uoj.ac/problem/41)
 -   [Codeforces 1147 F. Zigzag Game](https://codeforces.com/problemset/problem/1147/F)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [什么是算法：如何寻找稳定的婚姻搭配 - Matrix67](https://matrix67.com/blog/archives/2976)
 -   [Gale–Shapley 算法：在二分图中寻找稳定匹配](https://reimuyk.github.io/2021-03-24-Gale-Shapley-Algorithm/)

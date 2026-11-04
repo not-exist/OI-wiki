@@ -332,11 +332,13 @@ $$
 
 一张图的最大团的大小记作 $\omega(G)$，最大团的大小等于其补图最大独立集的大小，即 $\omega(G)=\alpha(\bar{G})$．求一张图的最大团是 [NP 困难](../misc/cc-basic.md#np-hard) 的．
 
-## 参考资料
+## 拓展阅读
 
 [OI 中转站 - 图论概念梳理](https://yhx-12243.github.io/OI-transit/memos/14.html)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms)（以及相关概念的对应词条）
+
+## 参考资料与注释
 
 离散数学（修订版），田文成 周禄新 编著，天津文学出版社，P184-187
 

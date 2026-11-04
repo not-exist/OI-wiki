@@ -139,7 +139,7 @@ AA 树本身是一棵二叉搜索树，所以搜索操作与其他二叉搜索�
 
 AA 树的性能与红黑树的性能相当．尽管 AA 树进行的旋转操作比红黑树多，但 AA 树的算法更简单，最终导致相近的性能．红黑树的性能在各种情况下更加一致，而 AA 树往往更扁平，这使 AA 树有稍快的搜索速度．
 
-## 参考资料
+## 拓展阅读
 
 1.  [AA tree - Wikipedia](https://en.wikipedia.org/wiki/AA_tree)
 2.  [Introduction to AA trees](https://iq.opengenus.org/aa-trees/)

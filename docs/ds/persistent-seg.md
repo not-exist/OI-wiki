@@ -127,7 +127,7 @@ int main() {
 --8<-- "docs/ds/code/persistent-seg/persistent-seg_1.cpp"
 ```
 
-## 参考
+## 拓展阅读
 
 <https://en.wikipedia.org/wiki/Persistent_data_structure>
 

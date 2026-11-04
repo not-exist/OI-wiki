@@ -289,13 +289,15 @@
 -   [Luogu P4073 \[WC2013\] 平面图](https://www.luogu.com.cn/problem/P4073)
 -   [Luogu P7295 \[USACO21JAN\] Paint by Letters P](https://www.luogu.com.cn/problem/P7295)
 
-## 参考资料与注释
+## 拓展阅读
 
 -   [Planar graph - Wikipedia](https://en.wikipedia.org/wiki/Planar_graph)
 -   [Planarity testing - Wikipedia](https://en.wikipedia.org/wiki/Planarity_testing)
 -   Bondy, John Adrian, and Uppaluri Siva Ramachandra Murty. Graph theory with applications. Vol. 290. London: Macmillan, 1976.
 -   Diestel, Reinhard. Graph theory. Vol. 173. Springer Nature, 2025.
 -   Patrignani, Maurizio. "Planarity Testing and Embedding." (2013): 1-42.
+
+## 参考资料与注释
 
 [^face-2]: 但这并非唯一的可能．两个嵌套的自环也会形成二次面．另外，有二次面未必意味着图不是简单的，例如，一个只有一条边的图中，唯一的面（即外部面）也是二次的．
 

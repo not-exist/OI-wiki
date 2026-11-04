@@ -144,7 +144,7 @@ $$
     --8<-- "docs/graph/code/tree-ahu/tree-ahu_1.cpp"
     ```
 
-## 参考资料
+## 参考资料与注释
 
 本文大部分内容译自 [Paper](http://wwwmayr.in.tum.de/konferenzen/Jass08/courses/1/smal/Smal_Paper.pdf) 和 [Slide](https://logic.pdmi.ras.ru/~smal/files/smal_jass08_slides.pdf)．参考资料里的证明会更加全面和严谨，本文做了一定的简化．
 

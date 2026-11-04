@@ -173,10 +173,12 @@ $$
 
 那么在复杂情况下我们可以做到 $O((1/\epsilon^2)n\log^3 n)$，与多项式次数无关，以及我们允许函数同时进行区间左移或者右移．
 
-## 参考文献与注释
-
-[^ref1]: 需要注意的是，这仅仅给出的是上界，复杂度的下界应为 $O(\lambda_{s}(n)\log n)$．笔者猜测这里的势能分析构造应当参考 Davenport-Schinzel 序列对应的 $\lambda_{s}(n)$ 的通项公式以获取更紧的上界．
+## 拓展阅读
 
 -   P. K. Agarwal, S. Har-Peled, and K. R. Varadarajan. Approximating extent measures of points. J. ACM, 51(4):606–635, July 2004.
 -   J. Basch, L. J. Guibas, and J. Hershberger. Data structures for mobile data. Journal of Algorithms, 31(1):1–28, 1999.
 -   G. Alexandron, H. Kaplan, and M. Sharir. Kinetic and dynamic data structures for convex hulls and upper envelopes. Computational Geometry, 36(2):144–158, 2007.
+
+## 参考资料与注释
+
+[^ref1]: 需要注意的是，这仅仅给出的是上界，复杂度的下界应为 $O(\lambda_{s}(n)\log n)$．笔者猜测这里的势能分析构造应当参考 Davenport-Schinzel 序列对应的 $\lambda_{s}(n)$ 的通项公式以获取更紧的上界．

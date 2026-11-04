@@ -340,6 +340,6 @@
     }
     ```
 
-## 参考
+## 拓展阅读
 
 [P4211 \[LNOI2014\] LCA | 全局平衡二叉树](https://www.luogu.com.cn/blog/nederland/globalbst)

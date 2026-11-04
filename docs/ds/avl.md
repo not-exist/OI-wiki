@@ -146,7 +146,7 @@ AVL 树的其他操作（Predecessor、Successor、Select、Rank 等）与普通
     --8<-- "docs/ds/code/avl-tree/AvlTreeMap.hpp"
     ```
 
-## 其他资料
+## 拓展阅读
 
 在 [AVL Tree Visualization](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html) 可以观察 AVL 树维护平衡的过程．
 

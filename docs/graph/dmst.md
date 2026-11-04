@@ -238,8 +238,10 @@ int main() {
 }
 ```
 
-## 参考文献
-
-Uri Zwick. (2013),[Directed Minimum Spanning Trees](http://www.cs.tau.ac.il/~zwick/grad-algo-13/directed-mst.pdf), Lecture notes on "Analysis of Algorithms"
+## 拓展阅读
 
 <https://riteme.site/blog/2018-6-18/mdst.html#_3>
+
+## 参考资料与注释
+
+Uri Zwick. (2013),[Directed Minimum Spanning Trees](http://www.cs.tau.ac.il/~zwick/grad-algo-13/directed-mst.pdf), Lecture notes on "Analysis of Algorithms"

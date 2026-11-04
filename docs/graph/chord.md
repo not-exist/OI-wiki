@@ -245,7 +245,7 @@ for (int i = 1; i <= n; i++)
 
 [P3852\[TJOI2007\] 小朋友](https://www.luogu.com.cn/problem/P3852)
 
-## 参考资料
+## 拓展阅读
 
 [弦图相关](https://yhx-12243.github.io/OI-transit/memos/15.html)
 

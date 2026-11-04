@@ -370,7 +370,7 @@ bool erase(const K &key) {
 
 这样，就可以快速地访问到跳表的第 $k$ 个元素．可以证明，这个操作的时间复杂度为 $O(\log n)$．
 
-## 参考资料
+## 拓展阅读
 
 1.  [Skip Lists: A Probabilistic Alternative to Balanced Trees](https://15721.courses.cs.cmu.edu/spring2018/papers/08-oltpindexes1/pugh-skiplists-cacm1990.pdf)
 2.  [Skip List](https://en.wikipedia.org/wiki/Skip_list)

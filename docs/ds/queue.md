@@ -196,7 +196,7 @@ STL 中的 `deque` 容器提供了一众成员函数以供调用．其中较为�
 
 解决假溢出的办法是采用循环的方式来组织存放队列元素的数组，即将数组下标为 0 的位置看做是最后一个位置的后继．（数组下标为 `x` 的元素，它的后继为 `(x + 1) % SIZE`）．这样就形成了循环队列．
 
-## 参考资料
+## 拓展阅读
 
 1.  [std::queue - zh.cppreference.com](https://zh.cppreference.com/w/cpp/container/queue)
 2.  [std::deque - zh.cppreference.com](https://zh.cppreference.com/w/cpp/container/deque)

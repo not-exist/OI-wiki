@@ -112,6 +112,6 @@ $$
     --8<-- "docs/graph/code/lgv/lgv_1.cpp"
     ```
 
-## 参考资料
+## 参考资料与注释
 
 [^1]: 证明来源于 [知乎 - LGV 引理证明](https://zhuanlan.zhihu.com/p/517819133)

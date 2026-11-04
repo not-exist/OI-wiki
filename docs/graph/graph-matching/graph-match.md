@@ -221,7 +221,7 @@ $$
 
 对于加权图，最小权边覆盖问题可以归约为一个 **最小权完美匹配** 问题．首先，将图 $G=(V,E)$ 拷贝一份得到 $\tilde G=(\tilde V,\tilde E)$，边权与原图一致；然后，将每个顶点 $v\in V$ 都与它的拷贝 $\tilde v\in\tilde V$ 连接起来，边权为图 $G$ 中与 $v$ 关联的边的权值最小值．这样得到的图记作 $G'=(V',E')$．如果图 $G$ 是二分图或稀疏图，那么图 $G'$ 同样分别是二分图或稀疏图．而且，图 $G$ 的最小权边覆盖问题，就归约为图 $G'$ 的最小权完美匹配问题[^edge-cover]：对于图 $G'$ 的最小权完美匹配 $M'$，只要保留 $E$ 中的边，再将所有匹配到的 $(v,\tilde v)$ 替换成图 $G$ 中与 $v$ 关联的权值最小的边，就得到图 $G$ 的最小权边覆盖．
 
-## 参考资料
+## 拓展阅读
 
 1.  [Wikiwand - Matching (graph theory)](https://www.wikiwand.com/en/Matching_%28graph_theory%29)
 2.  [Wikiwand - Blossom algorithm](https://www.wikiwand.com/en/Blossom_algorithm)
@@ -232,6 +232,8 @@ $$
 7.  [二分图的最大匹配、完美匹配和匈牙利算法](https://www.renfei.org/blog/bipartite-matching.html)
 8.  [Wikiwand - Hopcroft–Karp algorithm](https://www.wikiwand.com/en/Hopcroft%E2%80%93Karp_algorithm)
 9.  Bondy, John Adrian, and Uppaluri Siva Ramachandra Murty. Graph theory with applications. Vol. 290. London: Macmillan, 1976.
+
+## 参考资料与注释
 
 [^other-approach]: 当然，这并不是唯一的归约方式．对于图 $G=(V,E)$，还可以将它的一份拷贝 $\tilde G=(\tilde V,\tilde E)$ 逐点地连接到原来的图上，并将所有相对于原图 $G$ 新加的边（包括拷贝中的边）的权重设为 $0$，得到图 $G'=(V',E')$．换句话说，新图 $G'$ 的顶点集是 $V\cup\tilde V$，而它的边集除了图 $G$ 中的边之外，还将所有顶点 $v\in V$ 都与它的拷贝 $\tilde v\in\tilde V$ 用零权边连接，且对于所有边 $(u,v)\in E$，都将 $\tilde u$ 与 $\tilde v$ 用零权边连接．图 $G$ 中的所有匹配 $M$ 都对应着图 $G'$ 中的一个权值和相同的完美匹配：只需要将 $G$ 中所有未匹配点 $v$ 都与它的拷贝 $\tilde v$ 匹配，而对于所有匹配边 $(u,v)$，都将 $\tilde u$ 与 $\tilde v$ 匹配．因此，图 $G'$ 中的最大权最大匹配，也就是最大权完美匹配，限制到 $E$ 上，就得到图 $G$ 的最大权匹配．这样归约的好处是，如果图 $G$ 是二分图或稀疏图，那么扩充得到的图 $G'$ 也分别是二分图或稀疏图．
 

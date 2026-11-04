@@ -193,7 +193,12 @@ struct Node {
 
 目前对复杂度上界比较好的估计有，Iacono 的 $O(1)$ `meld`，$O(\log n)$ `decrease-key`[^ref3]；Pettie 的 $O(2^{2 \sqrt{\log \log n}})$ `meld` 和 `decrease-key`[^ref4]．需要注意的是，前述复杂度均为均摊复杂度，因此不能对各结果分别取最小值．
 
-## 参考文献
+## 拓展阅读
+
+-   <https://en.wikipedia.org/wiki/Pairing_heap>
+-   <https://brilliant.org/wiki/pairing-heap/>
+
+## 参考资料与注释
 
 [^ref1]: [The pairing heap: a new form of self-adjusting heap](http://www.cs.cmu.edu/~sleator/papers/pairing-heaps.pdf)
 
@@ -202,6 +207,3 @@ struct Node {
 [^ref3]: [Improved upper bounds for pairing heaps](https://arxiv.org/abs/1110.4428)
 
 [^ref4]: [Towards a Final Analysis of Pairing Heaps](http://web.eecs.umich.edu/~pettie/papers/focs05.pdf)
-
--   <https://en.wikipedia.org/wiki/Pairing_heap>
--   <https://brilliant.org/wiki/pairing-heap/>

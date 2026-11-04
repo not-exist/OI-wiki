@@ -195,6 +195,6 @@ LCA 为两个游标跳转到同一条重链上时深度较小的那个游标所�
 -   [货车运输](https://loj.ac/problem/2610)
 -   [点的距离](https://loj.ac/problem/10130)
 
-## 参考资料
+## 拓展阅读
 
 -   [冷门科技——DFS 序求 LCA by Alex\_Wei - 洛谷](https://www.luogu.com.cn/article/pu52m9ue)

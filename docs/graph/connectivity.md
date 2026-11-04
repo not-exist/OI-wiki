@@ -50,6 +50,6 @@ $$
 
 **本页面译自博文 [Рёберная связность. Свойства и нахождение](http://e-maxx.ru/algo/rib_connectivity)、[Вершинная связность. Свойства и нахождение](http://e-maxx.ru/algo/vertex_connectivity) 与其英文翻译版 [Edge connectivity/Vertex connectivity](https://cp-algorithms.com/graph/edge_vertex_connectivity.html)．其中俄文版版权协议为 Public Domain + Leave a Link；英文版版权协议为 CC-BY-SA 4.0．**
 
-## 延伸阅读
+## 拓展阅读
 
 -   论文 [*Connectivity Algorithms*](https://www.cse.msu.edu/~cse835/Papers/Graph_connectivity_revised.pdf) 介绍了近年来连通度计算算法的进展．感兴趣的读者可以自行浏览．

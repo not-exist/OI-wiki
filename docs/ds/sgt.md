@@ -180,11 +180,13 @@ $$
     --8<-- "docs/ds/code/sgt/sgt.cpp:full-text"
     ```
 
-## 参考资料
+## 拓展阅读
 
 -   Galperin, Igal, and Ronald L. Rivest. "Scapegoat trees." Proceedings of the fourth annual ACM-SIAM Symposium on Discrete algorithms. 1993.
 -   [Scapegoat Tree - Wikipedia](https://en.wikipedia.org/wiki/Scapegoat_tree)
 -   [替罪羊树 - riteme 的博客](https://riteme.site/blog/2016-4-6/scapegoat.html)
+
+## 参考资料与注释
 
 [^tot-cnt]: 也可以只统计未删除节点数目，此时不再需要统计 `tot_active`，而需要统计所有占用节点数目 `tot_max`，代码相应调整即可．
 

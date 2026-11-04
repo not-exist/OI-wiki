@@ -218,6 +218,6 @@ while (队列不为空) {
 -   [CF173B. Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)
 -   [「BalticOI 2011 Day1」打开灯泡 Switch the Lamp On](https://loj.ac/p/2632)
 
-## 参考
+## 拓展阅读
 
 <https://cp-algorithms.com/graph/breadth-first-search.html>
