@@ -17,10 +17,13 @@ STL 即标准模板库（Standard Template Library），是 C++ 标准库的一�
 
 [Boost](https://www.boost.org/) 是除了标准库外，另一个久负盛名的开源 C++ 工具库，其代码具有可移植、高质量、高性能、高可靠性等特点．Boost 中的模块数量非常之大，功能全面，并且拥有完备的跨平台支持，因此被看作 C++ 的准标准库．C++ 标准中的不少特性也都来自于 Boost，如智能指针、元编程、日期和时间等．尽管在 OI 中无法使用 Boost，但是 Boost 中有不少轮子可以用来验证算法或者对拍，如 Boost.Geometry 有 R 树的实现，Boost.Graph 有图的相关算法，Boost.Intrusive 则提供了一套与 STL 容器用法相似的侵入式容器．有兴趣的读者可以自行在网络搜索教程．
 
-## 参考资料
+## 拓展阅读
 
 1.  [C++ reference](https://en.cppreference.com/)
-2.  [C++ 参考手册](https://zh.cppreference.com/)
-3.  [维基百科 - C++](https://zh.wikipedia.org/wiki/C%2B%2B)
-4.  [Boost 官方网站](https://www.boost.org/)
-5.  [Boost 教程网站](https://theboostcpplibraries.com/)
+2.  [维基百科 - C++](https://zh.wikipedia.org/wiki/C%2B%2B)
+3.  [Boost 教程网站](https://theboostcpplibraries.com/)
+
+## 参考资料与注释
+
+1.  [C++ 参考手册](https://zh.cppreference.com/)
+2.  [Boost 官方网站](https://www.boost.org/)

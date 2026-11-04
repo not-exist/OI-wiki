@@ -255,11 +255,14 @@ Vim 的宏功能可以重复任意长的命令．
 5.  键入 `normal n@字母` 转到下一处并重复上一步操作；
 6.  键入 `数字 + .` 多次重复．
 
-## 外部链接
+## 拓展阅读
 
--   [Vim 官网](https://www.vim.org/)
 -   [原作者提供的配置](https://github.com/LuoshuiTianyi/Vim-for-OIWiki)
 -   [Vim 调试：termdebug 入门](https://fzheng.me/2018/05/28/termdebug/)
 -   [Vim scripting cheatsheet](https://devhints.io/vimscript)
 -   [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com)
 -   [Linux vi/vim | 菜鸟教程](https://www.runoob.com/linux/linux-vim.html)
+
+## 参考资料与注释
+
+-   [Vim 官网](https://www.vim.org/)

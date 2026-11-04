@@ -67,7 +67,7 @@ struct Edge {
 
 为了访问内存的效率更高，编译器在处理结构中成员的实际存储情况时，可能会将成员对齐在一定的字节位置，也就意味着结构中有空余的地方．因此，该结构所占用的空间可能大于其中所有成员所占空间的总和．
 
-## 参考资料
+## 拓展阅读
 
 1.  [Class - zh.cppreference.com](https://zh.cppreference.com/w/cpp/language/class)
 2.  [Data structures - cplusplus.com](http://www.cplusplus.com/doc/tutorial/structures/)

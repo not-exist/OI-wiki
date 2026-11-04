@@ -168,13 +168,14 @@ Kate 自 19.12 起支持 LSP Client，最初仅支持 C/C++、D、Fortran、Go�
 
 启用该特性后，Kate 会在每一行后面以较浅字体显示在 Git 中最后于什么时间被谁修改，将鼠标移动到文字上会出现一个悬浮窗显示 commit 的具体信息．
 
-## 相关外部链接
+## 拓展阅读
 
 -   [The Kate Handbook](https://docs.kde.org/stable_kf6/en/kate/kate/kate.pdf)
 -   [关于如何手写自己的 LSP 客户端配置（英文）](https://docs.kde.org/trunk_kf6/en/kate/kate/kate-application-plugin-lspclient.html#Configuration)
--   [关于如何手写自己的外部工具配置（英文）](https://docs.kde.org/trunk_kf6/en/kate/kate/kate-application-plugin-external-tools.html)
 
-## 参考资料与脚注
+## 参考资料与注释
+
+-   [关于如何手写自己的外部工具配置（英文）](https://docs.kde.org/trunk_kf6/en/kate/kate/kate-application-plugin-external-tools.html)
 
 [^ref1]: [Arch Linux 中对该包的描述](https://archlinux.org/packages/extra/x86_64/kate/) 中，其可选依赖了 `konsole`，描述为 `open a terminal in Kate`（在 Kate 中打开一个终端）．
 

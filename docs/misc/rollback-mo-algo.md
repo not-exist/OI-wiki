@@ -38,6 +38,6 @@ author: StudyingFather, Backl1ght, countercurrent-time, Ir1d, greyqz, MicDZ, ouu
     --8<-- "docs/misc/code/rollback-mo-algo/rollback-mo-algo_1.cpp"
     ```
 
-## 参考资料
+## 拓展阅读
 
 -   [回滚莫队及其简单运用 | Parsnip's Blog](https://www.cnblogs.com/Parsnip/p/10969989.html)

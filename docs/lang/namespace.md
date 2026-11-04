@@ -130,6 +130,6 @@ void solve() {
 int main() { Sol::solve(); }
 ```
 
-## 参考
+## 拓展阅读
 
 -   [Namespaces - cppreference.com](https://en.cppreference.com/w/cpp/language/namespace)

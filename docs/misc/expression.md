@@ -270,17 +270,17 @@ while (!op.empty() &&
     
     ```
 
-## 参考资料
-
-**本页面主要译自博文 [Разбор выражений. Обратная польская нотация](https://e-maxx.ru/algo/expressions_parsing) 与其英文翻译版 [Expression parsing](https://cp-algorithms.com/string/expression_parsing.html)．其中俄文版版权协议为 Public Domain + Leave a Link；英文版版权协议为 CC-BY-SA 4.0．**
-
-## 延伸阅读
-
-1.  [Operator-precedence\_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser)
-2.  [Shunting yard algorithm](https://en.wikipedia.org/wiki/Shunting_yard_algorithm)
-
 ## 习题
 
 1.  [NOIP2013 普及组 表达式求值](https://www.luogu.com.cn/problem/P1981)
 2.  [后缀表达式](https://www.luogu.com.cn/problem/P1449)
 3.  [Transform the Expression](https://www.spoj.com/problems/ONP/)
+
+## 拓展阅读
+
+1.  [Operator-precedence\_parser](https://en.wikipedia.org/wiki/Operator-precedence_parser)
+2.  [Shunting yard algorithm](https://en.wikipedia.org/wiki/Shunting_yard_algorithm)
+
+## 参考资料与注释
+
+**本页面主要译自博文 [Разбор выражений. Обратная польская нотация](https://e-maxx.ru/algo/expressions_parsing) 与其英文翻译版 [Expression parsing](https://cp-algorithms.com/string/expression_parsing.html)．其中俄文版版权协议为 Public Domain + Leave a Link；英文版版权协议为 CC-BY-SA 4.0．**

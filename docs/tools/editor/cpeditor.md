@@ -63,6 +63,6 @@ author: zarttic, xk2013
 
     ![cp-judge-4](images/cp-judge-4.png)
 
-## 参考资料
+## 参考资料与注释
 
 [^compiler]: [编译器 - OI Wiki](../compiler.md)

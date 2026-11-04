@@ -435,6 +435,6 @@ int main(int argc, char* argv[]) {
 
 也可以使用 Kattis Problem Tools 提供的头文件 [validate.h](https://github.com/Kattis/problemtools/blob/master/examples/different/output_validators/different_validator/validate.h) 编写，以实现更加复杂的功能．
 
-## 参考资料
+## 参考资料与注释
 
 [^1]: [LibreOJ 支持 testlib 检查器啦！](https://loj.ac/article/124)

@@ -363,7 +363,7 @@ $$
 
 若 $\mathsf{P}\ne\mathsf{NP}$，可以得到 NP-intermediate 不为空．
 
-## 参考资料
+## 拓展阅读
 
 1.  [计算复杂性（1）自动机与正则语言](https://lingerois.com/p/%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E6%80%A71-%E8%87%AA%E5%8A%A8%E6%9C%BA%E4%B8%8E%E6%AD%A3%E5%88%99%E8%AF%AD%E8%A8%80/)；
 

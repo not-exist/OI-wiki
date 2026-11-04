@@ -173,7 +173,7 @@ freopen("test.out", "w", stdout);
 
 ![](./images/Dev-C++-10.png)
 
-## 参考资料
+## 参考资料与注释
 
 [^ref1]: 项目源代码托管于 [GitHub](https://github.com/Embarcadero/Dev-Cpp) 和 [SourceForge](https://sourceforge.net/projects/embarcadero-devcpp/).
 

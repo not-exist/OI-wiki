@@ -697,11 +697,6 @@ Pascal 在上个世纪后半叶是门很流行的语言，它早于 C 语言，�
 
 最后，Pascal 的圈子其实很小，C/C++ 的圈子很大，帮助手册与教程很多很全，一定要掌握好英语．世界上还有很多很多编程语言，而计算机这门学科与技术不光是信息竞赛和编程语言．
 
-### 本文 Pascal 语言的参考文献
-
--   [Lazarus wiki](https://wiki.freepascal.org/)
--   [Free Pascal Reference guide](https://freepascal.org/docs-html/current/ref/ref.html)
-
 ## 附录：Pascal 与 C++ 运算符与数学函数语法对比表
 
 仅包括最常用的运算符与函数．
@@ -773,3 +768,8 @@ Pascal 在上个世纪后半叶是门很流行的语言，它早于 C 语言，�
 其他函数请参考：
 
 -   [常用数学函数 - cppreference.com](https://zh.cppreference.com/w/cpp/numeric/math)
+
+## 拓展阅读
+
+-   [Lazarus wiki](https://wiki.freepascal.org/)
+-   [Free Pascal Reference guide](https://freepascal.org/docs-html/current/ref/ref.html)

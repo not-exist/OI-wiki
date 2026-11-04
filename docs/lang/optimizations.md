@@ -711,7 +711,7 @@ UBSan 的检查项可选，对程序的影响参考提供的网页地址．
 
 在这里观察各个编译器的行为和汇编代码：<https://godbolt.org>
 
-## 扩展阅读
+## 拓展阅读
 
 1.  [The LLVM Project Blog: What Every C Programmer Should Know About Undefined Behavior #1/3](https://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html)
 2.  [The LLVM Project Blog: What Every C Programmer Should Know About Undefined Behavior #2/3](https://blog.llvm.org/2011/05/what-every-c-programmer-should-know_14.html)

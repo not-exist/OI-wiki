@@ -230,7 +230,7 @@ Emacs 拥有极为丰富的快捷键，可以大幅提高工作的效率．使�
     (custom-set-faces)
     ```
 
-### 拓展阅读
+## 拓展阅读
 
 要以终端模式启动 Emacs，在启动时添加参数 `-nw`．Emacs 有多种变体，如采用 native-comp 来减少延迟的 [GCC Emacs](http://akrl.sdf.org/gccemacs.html) 及其纯 GTK 版本变体、针对 macOS 优化的 Emacs Macport．
 

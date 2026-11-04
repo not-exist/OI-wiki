@@ -576,6 +576,6 @@ int main() {
 ???+ note "输出："
     6 15 24 15 24 33 24 33 42
 
-## 参考
+## 参考资料与注释
 
 1.  [C++ 参考手册](https://zh.cppreference.com/)

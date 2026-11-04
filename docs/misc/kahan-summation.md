@@ -53,7 +53,7 @@ Python 的标准库指定了精确舍入求和的 [fsum](https://docs.python.org
 
 Julia 语言中，[sum](https://docs.julialang.org/en/v1/base/collections/#Base.sum) 函数的默认实现是成对求和，以获得高精度和良好的性能．同时外部库函数 [sum\_kbn](http://www.jlhub.com/julia/manual/en/function/sum_kbn) 为需要更高精度的情况提供了 Neumaier 变体的实现，具体可见 [KahanSummation.jl](https://github.com/JuliaMath/KahanSummation.jl)．
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [Kahan\_summation\_algorithm - Wikipedia](https://en.wikipedia.org/wiki/Kahan_summation_algorithm)
 2.  [Kahan summation - Rosetta Code](https://rosettacode.org/wiki/Kahan_summation)

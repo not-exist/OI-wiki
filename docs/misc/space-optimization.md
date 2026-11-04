@@ -67,7 +67,7 @@ $$
 -   [QOJ 6669 Mapa](https://qoj.ac/problem/6669)
 -   [\[SDOI/SXOI2022\] 无处存储](https://www.luogu.com.cn/problem/P8353)
 
-## 参考资料与拓展阅读
+## 拓展阅读
 
 1.  陈知轩．《浅谈信息学竞赛中的空间优化问题》．2022 国家集训队论文
 2.  [Information theory - Wikipedia](https://en.wikipedia.org/wiki/Information_theory)

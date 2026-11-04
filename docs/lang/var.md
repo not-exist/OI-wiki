@@ -516,7 +516,7 @@ a = 3;
 
 如果修改了常量的值，在编译环节就会报错：`error: assignment of read-only variable 'a'`．
 
-## 参考资料与注释
+## 拓展阅读
 
 1.  [Working Draft, Standard for Programming Language C++](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2022/n4917.pdf)
 2.  [类型 - cppreference.com](https://zh.cppreference.com/w/cpp/language/type)
@@ -527,6 +527,8 @@ a = 3;
 7.  [隐式转换 - cppreference.com](https://zh.cppreference.com/w/cpp/language/implicit_conversion)
 8.  [声明 - cppreference](https://zh.cppreference.com/w/cpp/language/declarations)
 9.  [作用域 - cppreference.com](https://zh.cppreference.com/w/cpp/language/scope)
+
+## 参考资料与注释
 
 [^note10]: 参见 <https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3054.pdf>
 

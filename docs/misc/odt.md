@@ -255,15 +255,16 @@ void perform(int l, int r) {
 -   [「Luogu 4979」矿洞：坍塌](https://www.luogu.com.cn/problem/P4979)
 -   [「Luogu 8146」risrqnis](https://www.luogu.com.cn/problem/P8146)
 
-## 扩展阅读
+## 拓展阅读
 
 [ODT 的映射思想的推广 - 洛谷专栏 (luogu.com.cn)](https://www.luogu.com.cn/article/0mys9qkh)
 
-## 参考资料和注释
-
--   [Problem - 896C - Codeforces](https://codeforces.com/problemset/problem/896/C)（珂朵莉树的起源）
 -   [CF896C Willem, Chtholly and Seniorious 题解 - 洛谷专栏 (luogu.com.cn)](https://www.luogu.com.cn/article/gyxbe23s)（`std::set` 实现参考）
 -   [珂朵莉树的 map 实现 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/469794466)（`std::map` 实现参考）
 -   [题解 CF896C【Willem, Chtholly and Seniorious】- 洛谷专栏 (luogu.com.cn)](https://www.luogu.com.cn/article/umiw1fwp)（链表实现参考）
+
+## 参考资料与注释
+
+-   [Problem - 896C - Codeforces](https://codeforces.com/problemset/problem/896/C)（珂朵莉树的起源）
 -   [Codeforces Round #449 Editorial - Codeforces](https://codeforces.com/blog/entry/56135?#comment-398940)（关于珂朵莉树的复杂度的证明）
 -   [珂朵莉树的复杂度分析 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/102786071)（珂朵莉树的复杂度分析）

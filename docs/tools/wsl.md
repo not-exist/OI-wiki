@@ -453,16 +453,17 @@ Welcome!
 
     这个系统和 Windows 10 共用 Host，所以理论上是比虚拟机占用小的．
 
-## 外部链接
+## 拓展阅读
 
 -   [关于适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/about)
--   [Ubuntu 软件仓库 - MirrorZ Help](https://help.mirrorz.org/ubuntu/)
 -   [Dev on Windows with WSL（在 Windows 上用 WSL 优雅开发）](https://dowww.spencerwoo.com)
 -   [GitHub 上的 Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL)
 -   [排查适用于 Linux 的 Windows 子系统问题](https://docs.microsoft.com/zh-cn/windows/wsl/troubleshooting)
 -   [WSL1 升级为 WSL2](https://www.cnblogs.com/stulzq/p/13926936.html)
 
 ## 参考资料与注释
+
+-   [Ubuntu 软件仓库 - MirrorZ Help](https://help.mirrorz.org/ubuntu/)
 
 [^ref1]: [洛谷日报 #6](https://www.luogu.com.cn/blog/asfr/Run-Ubuntu-On-Windows10)
 

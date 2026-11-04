@@ -94,7 +94,7 @@ Java 与 C++ 都是面向对象的语言，都使用了面向对象的思想（�
 
 因为这个特点，Java 经常被用于需要移植到不同平台程序的开发．但是也由于编译 Java 程序时需要从字节码开始，所以 Java 的性能没有 C++ 好．
 
-## 参考资料
+## 参考资料与注释
 
 [^cpp-designated-init]: <https://en.cppreference.com/w/cpp/language/aggregate_initialization>
 

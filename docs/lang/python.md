@@ -1077,7 +1077,7 @@ def fib(n):
         print()  # 结尾换行
     ```
 
-## 参考文档
+## 拓展阅读
 
 1.  [Python Documentation](https://www.python.org/doc/)
 2.  [Python 官方中文教程](https://docs.python.org/zh-cn/3/tutorial/)
@@ -1086,7 +1086,7 @@ def fib(n):
 5.  [廖雪峰的 Python 教程](https://www.liaoxuefeng.com/wiki/1016959663602400/)
 6.  [GeeksforGeeks: Python Tutorials](https://www.geeksforgeeks.org/python-programming-language/)
 
-## 参考资料和注释
+## 参考资料与注释
 
 [^ref1]: [2. Python 解释器—Python 3 文档](https://docs.python.org/zh-cn/3/tutorial/interpreter.html#id1)
 

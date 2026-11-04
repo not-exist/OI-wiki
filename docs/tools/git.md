@@ -530,7 +530,7 @@ Git 本身自带有 GUI，市面上也有很多优秀的 Git GUI 工具，例如
 
 很多 GUI 工具都有官方中文支持，例如 Git Desktop 以及 TortoiseGit．但是还是会有部分翻译看起来较为变扭，推荐使用英文版本．
 
-## 外部链接
+## 拓展阅读
 
 -   [Git Reference](https://git-scm.com/docs)
 -   [Pro Git Book](https://git-scm.com/book/zh/v2)

@@ -210,7 +210,7 @@ std::string&& f2() {
 }
 ```
 
-## 参考文献与推荐阅读
+## 拓展阅读
 
 1.  [Value categories](https://en.cppreference.com/w/cpp/language/value_category)
 2.  [Wording for guaranteed copy elision through simplified value categories](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0135r1.html)

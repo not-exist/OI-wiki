@@ -325,7 +325,7 @@ tmp3 = {...};
 
 *更多 构造函数（constructor）内容，参见「参考资料」第六条．*
 
-## 参考资料
+## 拓展阅读
 
 1.  [cppreference class](https://zh.cppreference.com/w/cpp/language/class)
 2.  [cppreference access](https://zh.cppreference.com/w/cpp/language/access)

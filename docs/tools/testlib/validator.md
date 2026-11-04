@@ -55,7 +55,7 @@ int main(int argc, char* argv[]) {
 }
 ```
 
-## 外部链接
+## 拓展阅读
 
 -   [Validator 的更多示例](https://github.com/MikeMirzayanov/testlib/tree/master/validators)
 -   [`testlib.h` 的 GitHub 存储库 MikeMirzayanov/testlib](https://github.com/MikeMirzayanov/testlib)

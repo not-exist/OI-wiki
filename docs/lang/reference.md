@@ -197,8 +197,11 @@ int main() {
 
 从语义上，临时量可能会带来额外的复制或移动，尽管多数情况下编译器能通过 [复制消除](./value-category.md#复制消除) 进行优化，但引用能强制编译器不进行这些多余操作，避免不确定性．
 
-## 参考内容
+## 拓展阅读
+
+1.  [C++ 语言文档——值类别](https://zh.cppreference.com/w/cpp/language/value_category)
+2.  [Does const ref lvalue to non-const func return value specifically reduce copies?](https://stackoverflow.com/questions/38909228/does-const-ref-lvalue-to-non-const-func-return-value-specifically-reduce-copies)
+
+## 参考资料与注释
 
 1.  [C++ 语言文档——引用声明](https://zh.cppreference.com/w/cpp/language/reference)
-2.  [C++ 语言文档——值类别](https://zh.cppreference.com/w/cpp/language/value_category)
-3.  [Does const ref lvalue to non-const func return value specifically reduce copies?](https://stackoverflow.com/questions/38909228/does-const-ref-lvalue-to-non-const-func-return-value-specifically-reduce-copies)

@@ -41,6 +41,6 @@ author: SDLTF, Ethkuil
     --8<-- "docs/misc/code/main-element/main-element_2.cpp:core"
     ```
 
-## 参考资料
+## 参考资料与注释
 
 [^ref1]: [多数投票算法 - 维基百科](https://zh.wikipedia.org/zh-cn/%E5%A4%9A%E6%95%B0%E6%8A%95%E7%A5%A8%E7%AE%97%E6%B3%95)

@@ -491,7 +491,7 @@ void solution(const vector<int>& input) {
 
 相较于使用块作用域，lambda 可以允许我们使用返回值，使得代码更加简洁；相较于函数，我们不需要额外起名和声明被捕获的各种参数，使得代码更加紧凑．
 
-## 参考文献
+## 拓展阅读
 
 -   [cppreference-lambda](https://en.cppreference.com/w/cpp/language/lambda)
 -   [Stackoverflow: Overhead with std::function](https://stackoverflow.com/a/33881130/11120338)

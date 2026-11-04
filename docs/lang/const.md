@@ -228,7 +228,7 @@ int main() {
     <source>:6:25: note: in call to ...
     ```
 
-## 参考资料
+## 拓展阅读
 
 -   [C++ 关键字——const](https://zh.cppreference.com/w/cpp/keyword/const)
 -   [C++ 关键字——constexpr](https://zh.cppreference.com/w/cpp/keyword/constexpr)

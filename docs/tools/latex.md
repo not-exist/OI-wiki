@@ -661,7 +661,7 @@ Natbib 包也有三种格式：**plainnat**，**abbrvnat** 和 **unsrtnat**，�
 
 $\rightarrow$ 在同一文件夹下新建一个同名的 BibTeX 文件，用正确的格式输入参考文献的信息．$\rightarrow$ 切换到 TeX 文档，并使用 `\cite`，`\bibliographystyle` 和 `\bibliography` 命令来引用文献．$\rightarrow$ 编译 TeX 文件．$\rightarrow$ 切换到 BibTeX 文件，并编译（点击 **Typeset** 按钮）$\rightarrow$ 切换到 TeX 文件并编译它 **两次**，然后核对 PDF 文档．
 
-## 更多阅读
+## 拓展阅读
 
 -   一份（不太）简短的 LATEX 2ε 介绍 <https://github.com/CTeX-org/lshort-zh-cn/releases/download/v6.02/lshort-zh-cn.pdf> 或 112 分钟了解 LaTeX 2ε.
 
@@ -674,5 +674,7 @@ $\rightarrow$ 在同一文件夹下新建一个同名的 BibTeX 文件，用正�
 -   TeX Live <http://www.tug.org/texlive/>"An easy way to get up and running with the TeX document production system". Available for Unix and Windows (links to MacTeX for MacOSX users). Includes the TeXworks editor.
 
 -   Workbook Source Files <http://edin.ac/17EQPM1> Download the .tex file and other files needed to compile this workbook.
+
+## 参考资料与注释
 
 **本文译自 [http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf](https://web.archive.org/web/20220309055041/http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf)**, 依据其他文献略有修改．
